@@ -23,3 +23,5 @@ The repository is organized by platform to make navigation easier:
 
 ## 📜 Disclaimer
 These writeups are for educational purposes only. Please use this information ethically and never against systems you do not have explicit permission to test.
+
+# 📢 Detailed writeups are in progress and will be updated regularly as I continue to learn and conquer new challenges. Stay tuned!
