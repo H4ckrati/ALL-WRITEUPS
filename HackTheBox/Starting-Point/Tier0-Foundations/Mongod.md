@@ -1,1 +1,0 @@
-![[Mongod.pdf]]
