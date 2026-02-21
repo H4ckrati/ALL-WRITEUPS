@@ -8,14 +8,13 @@ Additional details will be available after launching your challenge instance.
 
 I opened the website, I go to inspect and I see a coded message in ROT 13 
 
-![[Pasted image 20260219162110.png]]
-
+![](Pasted%20image%2020260219162110.png)
 I then decode it and it says :
 NOTE: Jack - temporary bypass: use header "X-Dev-Access: yes"
 
 #### Second Step
 
-So to change the request in burpsuite in the POST request in Repeater, I added this header :
+So to change the request in Burpsuite in the POST request in Repeater, I added this header :
 X-Dev-Access: yes
 
 ![](Pasted%20image%2020260219162428.png)
@@ -24,6 +23,6 @@ X-Dev-Access: yes
 
 I sent the modified request and I got this result :
 
-![[Pasted image 20260219162649.png]]
+![](Pasted%20image%2020260219162649.png)
 
 Flag : picoCTF{brut4_f0rc4_1a386e6f}
