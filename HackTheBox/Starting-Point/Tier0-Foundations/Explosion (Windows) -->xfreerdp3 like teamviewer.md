@@ -1,0 +1,1 @@
+![[../../../ALL-assets/Explosion.pdf]]

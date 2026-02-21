@@ -1,0 +1,1 @@
+![[../../../ALL-assets/Mongod.pdf]]
