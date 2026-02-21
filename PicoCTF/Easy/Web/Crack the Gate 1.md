@@ -9,7 +9,7 @@ Additional details will be available after launching your challenge instance.
 
 I opened the website, I go to inspect and I see a coded message in ROT 13 
 
-![](Pasted%20image%2020260219162110.png)
+![](../../PicoCTFPasted%20image%2020260219162110.png)
 I then decode it and it says :
 NOTE: Jack - temporary bypass: use header "X-Dev-Access: yes"
 
