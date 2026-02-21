@@ -13,12 +13,12 @@ So firstly in the website I fill all the input then I analyze all the request wi
 
 In the POST request where there is the otp I tried to delete the OTP then send the request again and here we go I got the Flag 
 
-![[Pasted image 20260219191303.png]]
+![[../../../ALL-assets/Pasted image 20260219191303.png]]
 
 
 Initially it was like this :
 
-![[Pasted image 20260219191353.png]]
+![[../../../ALL-assets/Pasted image 20260219191353.png]]
 
 
 

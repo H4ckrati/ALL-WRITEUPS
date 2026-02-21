@@ -21,6 +21,6 @@ Challenge name i.e. “**Get aHEAD**” seems to be a hint as **HEAD** is one 
 
 It can be noticed that Flag value is revealed in the response.
 
-![[Pasted image 20260220120310.png]]
+![[../../../ALL-assets/Pasted image 20260220120310.png]]
 
 Flag : picoCTF{r3j3ct_th3_du4l1ty_8b13f07}

@@ -23,6 +23,6 @@ I go on the website and I copied the bookmarklet :
 
 I then decided to go into Javascript compiler and run the same code but instead of alert console.log
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014303.png)
+![](../../../ALL-assets/Pasted%20image%2020260221014303.png)
 
 Flag : picoCTF{p@g3_turn3r_18d2fa20} 

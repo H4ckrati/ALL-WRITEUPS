@@ -56,7 +56,7 @@ It is referring to MAC OS proprietary file called DS_Store that holds attributes
 
 ###### A **.DS_Store** file is a hidden macOS metadata file created by the Finder to store a folder's custom viewing preferences, such as icon positions and background colors, which can accidentally reveal a list of other files if uploaded to a web server.
 
-![[Pasted image 20260219203542.png]]
+![[../../../ALL-assets/Pasted image 20260219203542.png]]
 #### Final Part : 
 
 First Part : picoCTF{t

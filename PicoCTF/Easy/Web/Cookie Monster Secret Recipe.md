@@ -7,13 +7,13 @@ Cookie Monster has hidden his top-secret cookie recipe somewhere on his website.
 
 I decided to login with random credentials, then I analyze the cookie 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014331.png)
+![](../../../ALL-assets/Pasted%20image%2020260221014331.png)
 
 #### Second Step 
 
 I decided to decode the secret_recipe cookie to see what its saying and when we decode this base64 we get the flag 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014343.png)
+![](../../../ALL-assets/Pasted%20image%2020260221014343.png)
 
 
 Flag : picoCTF{c00k1e_m0nster_l0ves_c00kies_73110ED1}
