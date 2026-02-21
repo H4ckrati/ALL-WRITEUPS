@@ -72,7 +72,7 @@ After adding the url in sudo vi /etc/hosts, I found this page
 
 
 
-Thanks to the script that we found in Exploit DB : 
+Thanks to the script that we found in Exploit DB: 
 
 ```
 ```py
