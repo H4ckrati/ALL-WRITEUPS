@@ -314,3 +314,17 @@ wftp_default_ssl.key
 wftpserver
 
 ```
+
+1) Then to have an interactive terminal you do : python3 -c 'import pty; pty.spawn("/bin/bash")' 
+2) then you press enter and control z.
+3) And you do :  stty raw -echo;fg then you press enter
+4) And you do export TERM=xterm
+
+
+
+
+
+
+
+
+Privilege Escalation https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS 
