@@ -336,4 +336,11 @@ Install linpeas on my computer with this command :
 wget https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 ```
 
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260221124222.png)
 
+Now, 
+
+Send the file linpeas.sh to thetarget machine 
+
+```
+```python3 -m http.server
