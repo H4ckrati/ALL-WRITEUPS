@@ -1,7 +1,7 @@
 
 #### Challenge Description 
 
-Who doesn't love cookies? Try to figure out the best one.http://wily-courier.picoctf.net:54494/
+Who doesn't love cookies? Try to figure out the best one http://wily-courier.picoctf.net:54494/
 
 ### Step by Step 
 
