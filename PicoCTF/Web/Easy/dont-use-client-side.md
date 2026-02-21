@@ -44,6 +44,4 @@ I just inspect the webpage and I see a easy javascript code :
 
 Send it to AI and there you got the flag
 
-
-
-Flag : 
+Flag : **`picoCTF{no_clients_plz_2eb02b45}`**
