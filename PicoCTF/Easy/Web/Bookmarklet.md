@@ -23,5 +23,7 @@ I go on the website and I copied the bookmarklet :
 
 I then decided to go into Javascript compiler and run the same code but instead of alert console.log
 
-![Pasted image 20260219193701.png](app://5970c3464a8266576e849a457e3730887507/Users/anaslakrati/Library/Mobile%20Documents/iCloud%7Emd%7Eobsidian/Documents/ALL-WRITEUPS/PicoCTF/Easy/Web/Pasted%20image%2020260219193701.png?1771547821274)
+![[Pasted image 20260219193701.png]]
+
+
 Flag : picoCTF{p@g3_turn3r_18d2fa20} 
