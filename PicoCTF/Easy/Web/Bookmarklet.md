@@ -1,7 +1,7 @@
 
 ###  Challenge description
 
-Why search for the flag when I can make a bookmarklet to print it for me?Browse [here](http://titan.picoctf.net:65211/), and find the flag!
+Why search for the flag when I can make a bookmarklet to print it for me?Browse [here](http://titan.picoctf.net:65211/), and find the flag
 
 
 #### FIrst Step
