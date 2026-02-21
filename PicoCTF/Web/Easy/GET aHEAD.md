@@ -1,4 +1,4 @@
-
+#Head #HTTPMethod #HTTP
 #### Challenge Description 
 
 Find the flag being held on this server to get ahead of the competitionhttp://wily-courier.picoctf.net:54196/
@@ -22,5 +22,16 @@ Challenge name i.e. “**Get aHEAD**” seems to be a hint as **HEAD** is one 
 It can be noticed that Flag value is revealed in the response.
 
 ![[../../../ALL-assets/Pasted image 20260220120310.png]]
+
+
+#### Summary of all the HTTP methods : 
+
+|**Method**|**CRUD Action**|**Description**|**Safe?**|**Idempotent?**|
+|---|---|---|---|---|
+|**GET**|Read|Requests data from a resource. Parameters are sent in the URL.|✅ Yes|✅ Yes|
+|**POST**|Create|Sends data to a server to create a new resource. Data is in the body.|❌ No|❌ No|
+|**PUT**|Update|Replaces an entire existing resource. If it doesn't exist, it creates it.|❌ No|✅ Yes|
+|**PATCH**|Update|Applies partial modifications to a resource (e.g., just changing an email).|❌ No|❌ No|
+|**DELETE**|Delete|Removes the specified resource.|❌ No|✅ Yes|
 
 Flag : picoCTF{r3j3ct_th3_du4l1ty_8b13f07}
