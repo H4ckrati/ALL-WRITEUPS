@@ -325,6 +325,6 @@ wftpserver
 
 
 
-
+### Find a privilege escalation
 
 Privilege Escalation https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS 
