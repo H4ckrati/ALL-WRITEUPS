@@ -327,4 +327,11 @@ wftpserver
 
 ### Find a privilege escalation
 
-Privilege Escalation https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS 
+Privilege Escalation 
+https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS 
+
+Install linpeas on my computer with this command : 
+
+```
+wget https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
+```
