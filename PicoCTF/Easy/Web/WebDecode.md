@@ -16,11 +16,11 @@ Analyze the main page but you will find nothing so keep searching in the other p
 http://titan.picoctf.net:60835/about.html 
 When you inspect you see this 
 
-![[../../../ALL-assets/Pasted image 20260219185541.png]]
+![](../../PicoCTF-assets/Pasted%20image%2020260221015143.png)
 
 So I decode the notify_true value and it gave me that 
 
-![[../../../ALL-assets/Pasted image 20260219185627.png]]
+![](../../PicoCTF-assets/Pasted%20image%2020260221015155.png)
 
 
 
