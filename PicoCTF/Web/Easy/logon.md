@@ -11,4 +11,9 @@ I login in using random credentials and it worked
 ![](../../PicoCTF-assets/Pasted%20image%2020260222111019.png)
 
 
+#### Second Step
+
+I tried to explore a little, I inspected the webpage but nothing interesting was there.
+So I decide to go see the cookie section and there you go : 
+
 
