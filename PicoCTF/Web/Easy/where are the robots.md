@@ -6,6 +6,8 @@ http://fickle-tempest.picoctf.net:65233
 
 ### First Step 
 
+We know that the robots are in the page followd by /robots.txt so I did that and I found that : 
+
 
 
 

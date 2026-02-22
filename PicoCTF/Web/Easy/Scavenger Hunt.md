@@ -1,4 +1,4 @@
-#Index
+#Indexing #Index #robots
 #### Challenge Description
 
 There is some interesting information hidden around this site. Can you find it?http://wily-courier.picoctf.net:57860/
