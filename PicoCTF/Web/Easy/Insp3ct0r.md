@@ -28,4 +28,4 @@ I did analyze the js and at the end I found the second part of the flag :
 Third Part : _lucky?302945a7}
 
 
-#### Full Flag : picoCTF{tru3_d3
+#### Full Flag : picoCTF{tru3_d3t3ct1ve_0r_ju5t _lucky?302945a7}
