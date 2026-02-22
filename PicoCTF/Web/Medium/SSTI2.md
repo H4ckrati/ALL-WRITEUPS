@@ -12,4 +12,9 @@ So I tried to type {{7fois7}} to see if it is vulnerable
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260222115046.png)
 
-And boom it rendered
+And boom it rendered 49 so it is vulnerable to SSTI 
+
+
+#### Second Step 
+
+I need to detect which characters 
