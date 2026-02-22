@@ -17,4 +17,4 @@ And boom it rendered 49 so it is vulnerable to SSTI
 
 #### Second Step 
 
-I need to detect which characters 
+I need to detect which characters is sanitized in the website and I found 
