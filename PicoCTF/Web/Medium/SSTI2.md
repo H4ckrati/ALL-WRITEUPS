@@ -32,3 +32,6 @@ _Blocked Characters:_
 `|join`
 
 And after so many trial and error I manage to found a correct obfuscated payload from this [source](https://www.onsecurity.io/blog/server-side-template-injection-with-jinja2/):
+
+
+Flag : picoCTF{sst1_f1lt3r_byp4ss_a9824e27}
