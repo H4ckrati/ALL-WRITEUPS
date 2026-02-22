@@ -10,7 +10,7 @@ We know that the robots are in the page followd by /robots.txt so I did that and
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260222112604.png)
 
-For 
+For your information : what is disallow in this case ?
 
 
 
