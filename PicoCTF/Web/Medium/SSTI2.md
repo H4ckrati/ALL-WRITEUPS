@@ -18,3 +18,17 @@ And boom it rendered 49 so it is vulnerable to SSTI
 #### Second Step 
 
 I need to detect which characters is sanitized in the website and I found 
+
+_Blocked Characters:_
+
+`.`
+
+`|`
+
+`_`
+
+`[]`
+
+`|join`
+
+And after so many trial and error I manage to found a correct obfuscated payload from this [source](https://www.onsecurity.io/blog/server-side-template-injection-with-jinja2/):
