@@ -16,7 +16,9 @@ In this specific context, **Disallow** is a command used in a **robots.txt** fil
 
 #### Second Step 
 
-So I decided to go in http://fickle-tempest.picoctf.net:65233/cc6b1.html to find the flag because its the page that is hidden
+So I decided to go in http://fickle-tempest.picoctf.net:65233/cc6b1.html to find the flag
+
+![](../../PicoCTF-assets/Pasted%20image%2020260222113350.png)
 
 
 Flag : picoCTF{ca1cu1at1ng_Mach1n3s_cc6b1}
