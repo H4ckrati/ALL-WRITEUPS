@@ -8,7 +8,7 @@ I made a cool website where you can announce whatever you want! I read about inp
 
 We know that it is a Server-side Template Injection vulnerability and as you can see, there will be input sanitization according to the description.
 
-So I tried to type {{7*7}} to see if it is vulnerable 
+So I tried to type {{7fois7}} to see if it is vulnerable 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260222115046.png)
 
