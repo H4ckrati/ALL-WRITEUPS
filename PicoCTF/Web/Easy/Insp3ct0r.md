@@ -18,3 +18,14 @@ I did analyze the css and at the end I found the second part of the flag :
 ![](../../PicoCTF-assets/Pasted%20image%2020260222111855.png)
 
 Second Part : t3ct1ve_0r_ju5t
+
+#### Third Part :
+
+I did analyze the js and at the end I found the second part of the flag : 
+
+![](../../PicoCTF-assets/Pasted%20image%2020260222112001.png)
+
+Third Part : _lucky?302945a7}
+
+
+#### Full Flag : picoCTF{tru3_d3
