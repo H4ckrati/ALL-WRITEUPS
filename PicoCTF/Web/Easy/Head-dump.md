@@ -7,15 +7,15 @@ Welcome to the challenge! In this challenge, you will explore a web application 
 I read the website and I saw a post that was talking about the backend developpement so I clicked on all the tag and all of a sudden the #API Documentation responded 
 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014508.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260221014508.png)
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014520.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260221014520.png)
 
 #### Second Step 
 
 I then go into the url and added /heapdump at the end. It downloaded me a file which contained the flag 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014538.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260221014538.png)
 
 Flag : picoCTF{Pat!3nt_15_Th3_K3y_dc0756a3}
 

@@ -13,12 +13,12 @@ So firstly in the website I fill all the input then I analyze all the request wi
 
 In the POST request where there is the otp I tried to delete the OTP then send the request again and here we go I got the Flag 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014743.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260221014743.png)
 
 
 Initially it was like this :
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014756.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260221014756.png)
 
 
 

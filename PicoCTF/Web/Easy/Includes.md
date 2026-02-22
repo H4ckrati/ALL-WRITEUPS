@@ -9,13 +9,13 @@ Inspect the website and find that there is a style.css and a script.js
 
 When I open the style.css, I found the first flag part 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014657.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260221014657.png)
 First Part : picoCTF{1nclu51v17y_1of2_
 #### Second Part
 
 When I open the script.js , I found the first flag part 
 
-![](../../PicoCTF-assets/Pasted%20image%2020260221014710.png)
+![](../../../ALL-assets/PicoCTF-assets/Pasted%20image%2020260221014710.png)
 Second Part : f7w_2of2_6edef411}
 
 
