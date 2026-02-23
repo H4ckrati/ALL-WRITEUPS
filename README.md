@@ -4,7 +4,7 @@ Welcome to my central repository for Capture The Flag (CTF) solutions and penetr
 
 ## 📂 Platforms & Categories
 
-The repository is organized by platform to make navigation easier:
+The repository is organized by platform to make navigation easier :
 
 * **[HackTheBox](https://www.hackthebox.com/)** - Focused on machine exploitation and advanced networking.
 * **[TryHackMe](https://tryhackme.com/)** - Guided labs covering specific vulnerabilities and tools.
