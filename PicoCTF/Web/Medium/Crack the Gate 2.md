@@ -5,6 +5,17 @@ The login system has been upgraded with a basic rate-limiting mechanism that loc
 
 #### First Step
 
+So with the context of the Challenge Description I needed to
 
 
 #### Second Step
+
+
+
+
+
+![](../../PicoCTF-assets/Pasted%20image%2020260226000207.png)
+
+
+
+flag : picoCTF{xff_byp4ss_brut3_3477bf15}
