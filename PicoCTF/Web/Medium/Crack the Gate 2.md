@@ -5,8 +5,7 @@ The login system has been upgraded with a basic rate-limiting mechanism that loc
 
 #### First Step
 
-So with the context of the Challenge Description I needed to
-
+So with the context of the Challenge Description I understood that I needed to use BURP INTRUDER for each reque
 
 #### Second Step
 
