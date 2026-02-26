@@ -5,7 +5,11 @@ The login system has been upgraded with a basic rate-limiting mechanism that loc
 
 #### First Step
 
-So with the context of the Challenge Description I understood that I needed to use BURP INTRUDER for each reque
+So with the context of the Challenge Description I understood that I needed to use BURP INTRUDER to change my IP for each request using this HTTP Header : 
+
+```
+X-Forwarded-For: 212.212.212.2
+```
 
 #### Second Step
 
