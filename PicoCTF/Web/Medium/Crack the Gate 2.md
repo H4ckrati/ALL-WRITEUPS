@@ -30,10 +30,11 @@ Then select Pitchfork attack and start the attack !
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260226000710.png)
 
-After a moment, You will observe that a length of 
+After a moment, You will observe that a length of a reponse is different so open the reponse in the browser !
+
 ![](../../PicoCTF-assets/Pasted%20image%2020260226000545.png)
 
-
+You can see the flag ! Mission is a success !
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260226000207.png)
 
