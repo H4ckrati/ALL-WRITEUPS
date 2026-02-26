@@ -15,8 +15,8 @@ And in the same time, I would need to change in the same time the password thank
 
 ##### BUT HOW can I change two values at the same time ? 
 
-Think of a **Pitchfork** attack as a **"Synchronized Parallel Sniper"** attack.
-#### Second Step
+Think of a **Pitchfork** attack as a **'Synchronized Parallel Sniper'** attack. It is **simultaneously** testing **IP 1** with **Password 1**, **IP 2** with **Password 2**, and so on.
+#### Second Step (Let's mao)
 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260226000710.png)
