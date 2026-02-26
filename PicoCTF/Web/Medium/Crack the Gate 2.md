@@ -22,7 +22,12 @@ I need to add the and copy paste the raw file from there (example) :
 
 https://github.com/clarketm/proxy-list/blob/master/proxy-list-raw.txt
 
-![](../../PicoCTF-assets/Pasted%20image%2020260226001208.png)
+(follow the steps in order )
+
+![](../../PicoCTF-assets/Pasted%20image%2020260226001242.png)
+
+I then need to do the same thing but with the 
+
 
 ```
 X-Forwarded-For: X.X.X.X
