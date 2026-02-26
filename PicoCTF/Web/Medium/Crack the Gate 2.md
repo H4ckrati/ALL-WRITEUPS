@@ -15,8 +15,11 @@ And in the same time, I would need to change in the same time the password thank
 
 ##### BUT HOW can I change two values at the same time ? 
 
-
+It's by using a Pitchfork attack which is a double sniper attack in order 
 #### Second Step
+
+
+![](../../PicoCTF-assets/Pasted%20image%2020260226000710.png)
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260226000545.png)
 
