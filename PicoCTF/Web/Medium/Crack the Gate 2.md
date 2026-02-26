@@ -15,7 +15,7 @@ And in the same time, I would need to change in the same time the password thank
 
 ##### BUT HOW can I change two values at the same time ? 
 
-It's by using a Pitchfork attack which is a double sniper attack in order 
+Think of a **Pitchfork** attack as a **"Synchronized Parallel Sniper"** attack.
 #### Second Step
 
 
