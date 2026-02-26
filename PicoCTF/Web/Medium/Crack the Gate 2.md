@@ -11,9 +11,10 @@ So with the context of the Challenge Description I understood that I needed to u
 X-Forwarded-For: 212.212.212.2
 ```
 
+And in the same time, I would need to change in the same time the password thanks to the d
 #### Second Step
 
-
+![](../../PicoCTF-assets/Pasted%20image%2020260226000545.png)
 
 
 
