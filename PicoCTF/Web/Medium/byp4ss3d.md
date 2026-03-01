@@ -34,10 +34,12 @@ Content-Type: application/x-php
 This code creates a **web backdoor** that captures whatever text you type after `?c=` in the URL and passes it directly to the server's operating system to be executed as a local command.
 
 
-
+So let's try it in action : 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124350.png)
 
+
+Now we want to find the flag so : 
 
 ```
 ?c=find / -name "*flag*" 2>/dev/null
@@ -46,7 +48,7 @@ This code creates a **web backdoor** that captures whatever text you type after 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124324.png)
 
 
-
+We found it now open /var/www/flag.txt
 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124226.png)
