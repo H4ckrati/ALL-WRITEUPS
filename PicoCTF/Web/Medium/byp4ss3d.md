@@ -6,7 +6,11 @@
 
 Because it is apache so https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/Configuration%20Apache%20.htaccess/README.md
 
-This particularly 
+This particularly caught my eye : Upload an .htaccess with : `AddType application/x-httpd-php .png` Then upload any file with `.png` extension.
+
+
+
+
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124832.png)
 
 ```
