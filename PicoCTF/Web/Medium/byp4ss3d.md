@@ -4,7 +4,8 @@
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124634.png)
 
 
-Because it is apache 
+Because it is apache so https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/Configuration%20Apache%20.htaccess/README.md
+
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124832.png)
 
