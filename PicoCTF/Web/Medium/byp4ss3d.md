@@ -1,6 +1,9 @@
 
 
 
+![](../../PicoCTF-assets/Pasted%20image%2020260301124634.png)
+
+
 
 
 
