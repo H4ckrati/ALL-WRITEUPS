@@ -27,9 +27,7 @@ AddType application/x-httpd-php .png
 
 This allows me to force the system to execute a 'fake' image as a PHP script.
 
-
-
-#### Second St
+#### Second Step (modify the request to execute command)
 Then let's modify the request in Burpsuite to run any command in the system.
 
 ```
