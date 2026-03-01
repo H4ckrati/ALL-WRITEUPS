@@ -6,6 +6,10 @@
 
 
 
+![](../../PicoCTF-assets/Pasted%20image%2020260301124832.png)
+
+
+
 
 ```
 ------geckoformboundary1f2c2735b7ef17d5cc90171b1da6cbc
