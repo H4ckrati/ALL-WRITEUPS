@@ -1,12 +1,19 @@
-
+#upload #phpuo
 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124634.png)
 
 
-
+Because it is apache 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124832.png)
+
+```
+AddType application/x-httpd-php .png
+```
+
+This will allow 
+
 
 
 
