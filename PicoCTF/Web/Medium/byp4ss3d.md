@@ -19,11 +19,9 @@ Explanation :
 AddType application/x-httpd-php .png
 ```
 
-This will allow me to make the system execute an sois disant image to php coimmand
+This allows me to force the system to execute a 'fake' image as a PHP script.
 
-
-
-
+Then let's modify the request in Burpsuite to run any command in the system.
 
 ```
 ------geckoformboundary1f2c2735b7ef17d5cc90171b1da6cbc
