@@ -57,3 +57,6 @@ We found it now open /var/www/flag.txt
 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124226.png)
+
+
+Flag : picoCTF{s3rv3r_byp4ss_65a9e718}
