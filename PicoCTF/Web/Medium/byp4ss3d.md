@@ -1,4 +1,4 @@
-#upload #phpuo
+#upload #phpupload #htacess #bypassupload
 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124634.png)
@@ -12,7 +12,7 @@ Because it is apache
 AddType application/x-httpd-php .png
 ```
 
-This will allow 
+This will allow to make the system execute php command
 
 
 
