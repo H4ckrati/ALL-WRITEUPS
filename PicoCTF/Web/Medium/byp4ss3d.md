@@ -10,7 +10,7 @@ This particularly caught my eye : Upload an .htaccess with : `AddType applicati
 
 Explanation :
 
-"Basically, I'm telling the server: 'Forget the extension; if it’s a . file, execute it as PHP code instead of serving it as a static image'."
+"Basically, I'm telling the server: 'Forget the extension; if it’s a .png file, execute it as PHP code instead of serving it as a static image'."
 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124832.png)
@@ -19,7 +19,7 @@ Explanation :
 AddType application/x-httpd-php .png
 ```
 
-This will allow to make the system execute php command
+This will allow me to make the system execute an sois disant image to php coimmand
 
 
 
