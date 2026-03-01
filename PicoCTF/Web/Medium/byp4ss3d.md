@@ -31,6 +31,10 @@ Content-Type: application/x-php
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124417.png)
 
+This code creates a **web backdoor** that captures whatever text you type after `?c=` in the URL and passes it directly to the server's operating system to be executed as a local command.
+
+
+
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124350.png)
 
