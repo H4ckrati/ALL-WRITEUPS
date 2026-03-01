@@ -1,12 +1,16 @@
 #upload #phpupload #htacess #bypassupload
 
 
+#### Challenge Description 
+
+
+
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124634.png)
 
 
-Because it is apache so https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/Configuration%20Apache%20.htaccess/README.md
+Because it is apache so I did some research and I found this particular website : https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/Configuration%20Apache%20.htaccess/README.md
 
-This particularly caught my eye : Upload an .htaccess with : `AddType application/x-httpd-php .png` Then upload any file with `.png` extension.
+This particularly caught my eye in the website : Upload an .htaccess with : `AddType application/x-httpd-php .png` Then upload any file with `.png` extension.
 
 Explanation :
 
