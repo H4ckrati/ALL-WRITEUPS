@@ -8,7 +8,9 @@ Because it is apache so https://github.com/swisskyrepo/PayloadsAllTheThings/blob
 
 This particularly caught my eye : Upload an .htaccess with : `AddType application/x-httpd-php .png` Then upload any file with `.png` extension.
 
+Explanation :
 
+"Basically, I'm telling the server: 'Forget the extension; if it’s a . file, execute it as PHP code instead of serving it as a static image'."
 
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124832.png)
