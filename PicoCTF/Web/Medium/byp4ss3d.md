@@ -1,9 +1,11 @@
 #upload #phpupload #htacess #bypassupload
 
-
 #### Challenge Description 
 
+A university's online registration portal asks students to upload their ID cards for verification. The developer put some filters in place to ensure only image files are uploaded but are they enough? Take a look at how the upload is implemented. Maybe there's a way to slip past the checks and interact with the server in ways you shouldn't.You can access the web application at [here](http://amiable-citadel.picoctf.net:56695/)!
 
+
+#### First Step (analyze the request using a default image)
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124634.png)
 
@@ -25,6 +27,9 @@ AddType application/x-httpd-php .png
 
 This allows me to force the system to execute a 'fake' image as a PHP script.
 
+
+
+#### Second St
 Then let's modify the request in Burpsuite to run any command in the system.
 
 ```
