@@ -6,7 +6,7 @@
 
 Because it is apache so https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/Configuration%20Apache%20.htaccess/README.md
 
-
+This particularly 
 ![](../../PicoCTF-assets/Pasted%20image%2020260301124832.png)
 
 ```
