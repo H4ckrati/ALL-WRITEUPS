@@ -4,9 +4,6 @@
 We've built the most secure networking tool in the market, come and check it out!
 
 
-
-
-
 Let's find where is the flag:
 
 ```
