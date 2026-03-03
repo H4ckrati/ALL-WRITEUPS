@@ -6,6 +6,9 @@ We've built the most secure networking tool in the market, come and check it out
 
 
 
+Thanks to ls / : 
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260303163044.png)
 
 
 
