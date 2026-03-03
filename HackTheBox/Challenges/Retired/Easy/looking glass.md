@@ -13,7 +13,11 @@ Thanks to ls / :
 
 
 
+Now that we know that the file is stored in / : 
 
+```
+cat 
+```
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260303163006.png)
 
