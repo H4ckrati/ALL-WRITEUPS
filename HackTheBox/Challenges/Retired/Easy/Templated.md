@@ -2,11 +2,13 @@
 
 
 
-To test if there is an SSTI let's put this playload :
+To test if the website is vulnerable to an SSTI let's put this playload :
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260305133002.png)
 
 
 
-
+Now let's find the flag with this a
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260305132715.png)
 
 
