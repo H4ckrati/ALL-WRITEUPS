@@ -1,5 +1,5 @@
 #steps #step #crontab #cronjob #sshportforwarding #sshforward #portforwarder
-
+#recap
 #### Challenge Description 
 
 [HTB Planning](https://app.hackthebox.com/machines/Planning) is an **easy** Linux machine that highlights an **RCE** on Grafana, a **container escape**, and privilege escalation via a **cronjobs** service to obtain system privileges.
@@ -150,7 +150,7 @@ And I finally get the root flag :
 
 Root flag
 
-#### RECAP : 
+#### RECAP :  ( of steps for a hacker to get root)
 
 #### 1 step : 
 
