@@ -2,7 +2,7 @@
 
 
 
-To test if there is a
+To test if there is an SSTI let's put this
 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260305132715.png)
