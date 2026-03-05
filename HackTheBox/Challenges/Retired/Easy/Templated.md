@@ -2,7 +2,9 @@
 
 
 
-To test if there is an SSTI let's put this
+To test if there is an SSTI let's put this playload :
+
+
 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260305132715.png)
