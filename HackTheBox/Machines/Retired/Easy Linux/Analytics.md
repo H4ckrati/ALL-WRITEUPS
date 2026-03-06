@@ -22,6 +22,16 @@ Nmap done: 1 IP address (1 host up) scanned in 9.41 seconds
 ```
 
 
+In the webpage analytical.htb, I found a login page 
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306112245.png)
+
+
+
+O
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306112214.png)
+
+
 
 https://github.com/m3m0o/metabase-pre-auth-rce-poc
 
