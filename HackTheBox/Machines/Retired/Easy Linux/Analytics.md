@@ -28,13 +28,17 @@ In the webpage analytical.htb, I found a login page
 
 
 
-O
+Once in the login page, I found out that it uses Metabase which was critical to a very popular CVE in 2023 :
+
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306112214.png)
 
 
 
 https://github.com/m3m0o/metabase-pre-auth-rce-poc
 
+```
+
+```
 
 When I got the reverse shell I did env to see the environnement variables then I found the credentials for ssh :
 
