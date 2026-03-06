@@ -23,7 +23,7 @@ Flag : S3rv1ceP1n9Sup3rS3cure
 
 ## WRONG CODE : 
 
->[!danger]
+>[!note]
 > ```
 > $command = "ping -c 3 " . $target_ip;
 > ```
