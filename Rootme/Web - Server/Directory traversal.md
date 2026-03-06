@@ -18,3 +18,6 @@ NOT YET --> let's open the galerie :
 
 NOT YET --> let's open this very suspicious folder : 86hwnX2r
 
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306150642.png)
+
+Finally let's open the password.txt file :
