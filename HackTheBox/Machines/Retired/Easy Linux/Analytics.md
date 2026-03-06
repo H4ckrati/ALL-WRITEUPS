@@ -33,6 +33,8 @@ Once in the login page, I found out that it uses Metabase which was critical to 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306112214.png)
 
 
+## User Flag :
+
 
 https://github.com/m3m0o/metabase-pre-auth-rce-poc
 
