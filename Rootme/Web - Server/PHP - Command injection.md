@@ -34,7 +34,7 @@ Flag : S3rv1ceP1n9Sup3rS3cure
 
 This code wraps the IP in quotes, which means the `ls` command won't be executed as code, but will be treated as a string.
 
->[!type]
+>[!Note]
 >``` 
 >// SECURE VERSION
 $safe_ip = escapeshellarg($target_ip);
