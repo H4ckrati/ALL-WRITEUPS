@@ -20,4 +20,12 @@ NOT YET --> let's open this very suspicious folder : 86hwnX2r
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306150642.png)
 
-Finally let's open the password.txt file :
+Finally let's open the password.txt in a new tab :
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306150758.png)
+
+Here we go ! 
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306150820.png)
+
+Flag : kcb$!Bx@v4Gs9Ez
