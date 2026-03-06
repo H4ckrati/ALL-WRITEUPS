@@ -1,4 +1,4 @@
-
+#phpbb #PHPBB 
 #### Challenge Description :
 
  You know phpBB ?
@@ -10,8 +10,7 @@ To install files or the full package in phpBB, upload the extracted files to you
 
 Primary Source Page :
 
-
-
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306145318.png)
 
 Because of the explanation, challenge name and the primary source page, I discovered a web page in this exact url /phpbb/install
 
@@ -20,7 +19,7 @@ Here is his content :
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306145246.png)
 
 
-So click on install.php and here we go
+So click on install.php and here we go : 
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306145207.png)
 
