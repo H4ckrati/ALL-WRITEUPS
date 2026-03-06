@@ -12,5 +12,9 @@ Now let's figure out where the password is :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306150521.png)
 
-NOT YET --> let's open th:
+NOT YET --> let's open the galerie :
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306150604.png)
+
+NOT YET --> let's open this very suspicious folder : 86hwnX2r
 
