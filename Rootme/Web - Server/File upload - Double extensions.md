@@ -23,11 +23,12 @@ if(isset($_GET['c'])) {
 ```
 
 It allows me to add a GET parameter (c) then I can run commands :
+
 Example :
+http://challenge01.root-me.org/web-serveur/ch20/galerie/upload/d10fa5c7669d1b130735a0d7d33246cb/malicious.php.png?c=id
 
 
-
-Because of the Challenge Name, I tried to replace the file extension .php to .php.png :
+###### Because of the Challenge Name, I tried to replace the file extension .php to .php.png :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224328.png)
 
@@ -44,7 +45,7 @@ ls -la ../../../
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224703.png)
 
 
-After some research I found the .passwd location 
+###### After some research I found the .passwd location 
 
 >[!note]
 >```
