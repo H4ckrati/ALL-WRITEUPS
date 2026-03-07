@@ -24,9 +24,9 @@ Flag : t0_W34k!$
 
 >[!note]
 > ```
-> 
+> $query = "SELECT * FROM users WHERE username = '";
 > ```
-> 	Here the ```$target_ip ``` is very dangerous because it allows you to execute any command by following the ip with ; (to execute another command after the first one)
+> 	his is very dangerous. If a user enters `' OR '1'='1`, the final query becomes: `SELECT * FROM users WHERE username = '' OR '1'='1'` Since `'1'='1'` is always true, the database returns all users, bypassing the login
 
 
 ## SOLUTION CODE :
