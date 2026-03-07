@@ -22,7 +22,9 @@ if(isset($_GET['c'])) {
 ?>
 ```
 
-It allows me to add a c 
+It allows me to add a GET parameter (c) then I can run commands :
+Example :
+
 
 
 Because of the Challenge Name, I tried to replace the file extension .php to .php.png :
