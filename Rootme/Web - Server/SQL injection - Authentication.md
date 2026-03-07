@@ -4,7 +4,12 @@
  Authentication v 0.01
 
 
-Let's test a basic payload
+Let's test a basic payload of SQL injection to see how the website reacts :
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306214909.png)
+
+>[!type]
+> Explanation : This simple payload 
 
 
 
