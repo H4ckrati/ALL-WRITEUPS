@@ -9,8 +9,7 @@ When I upload my malicious php file :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224114.png)
 
-
-S
+Because of the Challenge Name, I tried to replace the file extension .php to .php.
 
 
 
