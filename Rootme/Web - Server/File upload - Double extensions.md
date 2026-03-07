@@ -17,7 +17,14 @@ It worked !
 
 Now let's find the flag in .passwd ! But where is it located ?
 
+I tried to find the find with this command : 
+
+```
+ls -la ../../../
+```
+
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224703.png)
+
 
 After some research I found the .passwd location 
 
