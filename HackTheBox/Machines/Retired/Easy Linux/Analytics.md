@@ -69,5 +69,20 @@ ssh metalytics@10.129.1.26
 ## Root Flag 
 
 
-Let's checl t
+Let's checl the kernel version :
+
+
+```
+root@analytics:/root# uname -a
+Linux analytics 6.2.0-25-generic #25~22.04.2-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 28 09:55:23 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+```
+
+
+On github, I found a CVE about the kernel version :
+
+https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629/blob/main/exploit.sh
+
+After downloading the exp
+
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306232813.png)
