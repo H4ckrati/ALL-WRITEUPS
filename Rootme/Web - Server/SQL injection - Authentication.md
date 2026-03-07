@@ -31,7 +31,9 @@ Flag : t0_W34k!$
 
 ## SOLUTION CODE :
 
-This code wraps the IP in quotes, which means the `ls` command won't be executed as code, but will be treated as a string.
+1. **The Principle:** Prepared statements separate the **SQL command** from the **user data** so the database never mixes them up.
+    
+2. **The Execution:** By sending data separately in `$stmt->execute()`, the input is treated strictly as **plain text** and can never be executed as code.
 
 >[!Note]
 >``` 
