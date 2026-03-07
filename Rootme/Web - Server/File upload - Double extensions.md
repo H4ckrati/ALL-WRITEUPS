@@ -22,7 +22,9 @@ Now let's find the flag in .passwd ! But where is it located ?
 After some research I found the .passwd location 
 
 >[!note]
->ls -la a
+>```
+>```ls -la```  allows me to find every file even the ones that are hidden 
 
+Because I know that the file is located in ../../../.passwd
 
 Flag : Gg9LRz-hWSxqqUKd77-_q-6G8
