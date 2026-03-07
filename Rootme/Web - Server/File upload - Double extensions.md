@@ -6,3 +6,8 @@ Retrieve the validation password in the file .passwd at the root of the applicat
 
 
 
+
+
+
+
+Flag : Gg9LRz-hWSxqqUKd77-_q-6G8
