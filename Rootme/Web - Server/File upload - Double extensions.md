@@ -25,6 +25,18 @@ After some research I found the .passwd location
 >```
 >```ls -la```  allows me to find every file even the ones that are hidden 
 
-Because I know that the file is located in ../../../.passwd
+Because I know that the file is located in :
+
+```
+../../../.passwd
+```
+
+Let's open it : 
+
+```
+cat ../../../.passwd
+```
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224935.png)
 
 Flag : Gg9LRz-hWSxqqUKd77-_q-6G8
