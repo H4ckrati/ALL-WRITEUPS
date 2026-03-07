@@ -37,7 +37,7 @@ This code wraps the IP in quotes, which means the `ls` command won't be executed
 >``` 
 >// 1. Send the TEMPLATE to the database first (no user data yet)
 $stmt = $pdo->prepare('SELECT * FROM users WHERE username = :name');
-
 // 2. Send the DATA separately
 $stmt->execute(['name' => $user_input]);
+
 
