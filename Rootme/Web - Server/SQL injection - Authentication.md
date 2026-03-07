@@ -9,7 +9,8 @@ Let's test a basic payload of SQL injection to see how the website reacts :
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306214909.png)
 
 >[!type]
-> Explanation : This simple payload 
+> Explanation : This simple payload comments the rest of the input so the password will be commented ( not required anymore)
+> 
 
 
 
