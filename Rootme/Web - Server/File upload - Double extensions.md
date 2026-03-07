@@ -1,5 +1,6 @@
-
-##### Challenge Description 
+#2extensions #doubleextensions #phpupload #phpc #phpcommand
+ 
+ ##### Challenge Description 
 
 Your goal is to hack this photo galery by uploading PHP code.  
 Retrieve the validation password in the file .passwd at the root of the application.
@@ -8,6 +9,8 @@ Retrieve the validation password in the file .passwd at the root of the applicat
 When I upload my malicious php file : 
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224114.png)
+
+
 
 Because of the Challenge Name, I tried to replace the file extension .php to .php.png :
 
