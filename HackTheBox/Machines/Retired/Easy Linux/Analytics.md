@@ -58,10 +58,16 @@ username : metalytics
 password : An4lytics_ds20223#
 
 
-
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306104159.png)
 
 
 ```
 ssh metalytics@10.129.1.26
 ```
+
+
+## Root Flag 
+
+
+Let's checl t
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306232813.png)
