@@ -15,6 +15,14 @@ Because of the Challenge Name, I tried to replace the file extension .php to .ph
 
 It worked !
 
-Now let's find the flag in .passwd ! But where is it located 
+Now let's find the flag in .passwd ! But where is it located ?
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224703.png)
+
+After some research I found the .passwd location 
+
+>[!note]
+>ls -la a
+
 
 Flag : Gg9LRz-hWSxqqUKd77-_q-6G8
