@@ -83,6 +83,14 @@ On github, I found a CVE about the kernel version :
 
 https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629/blob/main/exploit.sh
 
-After downloading the exp
+After downloading the exploit.sh file in ssh and chmod +x exploit.sh :
+
+let's run it with :
+
+```
+./exploit.sh
+```
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306232813.png)
+
+EASY BOX !
