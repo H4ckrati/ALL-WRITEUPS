@@ -31,6 +31,6 @@ Open the content of index.php in a new tab :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307214919.png)
 
-I got the creds :     admin /
+I got the creds :     admin / OpbNJ60xYpvAQU8
 
 Flag : OpbNJ60xYpvAQU8
