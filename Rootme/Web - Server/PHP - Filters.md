@@ -34,6 +34,12 @@ Full Url :
 /web-serveur/ch12/index.php?inc=php://filter/convert.base64-encode/resource=ch12.php
 ```
 
+But How do I know that the source code is in ch12.php :
+In fact, when there is an erro
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308143140.png)
+
+
+
 ```
 <?php
 $inc="accueil.php";
