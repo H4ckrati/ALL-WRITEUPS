@@ -18,6 +18,12 @@ All info about SQL injection - String :
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/SQLite%20Injection.md#sqlite-string
 
 
+###### First I discovered that
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308100151.png)
+
+The Select doesn't worked like showed in the github
+
 I did this to find the
 
 ```
