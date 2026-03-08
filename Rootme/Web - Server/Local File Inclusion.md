@@ -12,7 +12,7 @@ Local File Inclusion (LFI) occurs when an application allows a user to input a f
 
 Remote File Inclusion (RFI) is a vulnerability that lets an attacker include a malicious file hosted on an external server into the target application's execution flow. By manipulating a script's include parameter to point to an external URL, the attacker can achieve remote code execution (RCE) on the vulnerable web server.
 
-
+*Because of the Challenge Description and Name, I thought that I ne*
 
 
 Flag : OpbNJ60xYpvAQU8
