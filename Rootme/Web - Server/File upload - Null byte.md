@@ -48,9 +48,10 @@ Flag : YPNchi2NmTwygr2dgCCF
 
 ## WRONG CODE : 
 
+This code is vulnerable to a null byte injection because it uses a regex that only validates the end of the filename, allowing an attacker to bypass the extension check and save a malicious script (like `shell.php`) when the underlying operating system terminates the string at the `%00` character.
+
 >[!note]
 >
-
 ```
 // VULNERABLE FILE UPLOAD
 $filename = $_FILES['uploaded_file']['name']; // Input: "shell.php%00.jpg"
@@ -70,8 +71,30 @@ if (preg_match('/\.jpg$/', $filename)) {
 
 ## SOLUTION CODE :
 
-This code wraps the IP in quotes, which means the `ls` command won't be executed as code, but will be treated as a string.
+
 
 >[!Note]
+```
+// SECURE FILE UPLOAD
+$filename = $_FILES['uploaded_file']['name'];
 
+// 1. Remove Null Bytes immediately
+$filename = str_replace(chr(0), '', $filename);
 
+// 2. Validate the extension properly using pathinfo
+$info = pathinfo($filename);
+$extension = strtolower($info['extension']);
+
+$allowed_extensions = ['jpg', 'jpeg', 'png'];
+
+if (in_array($extension, $allowed_extensions)) {
+    // 3. BEST PRACTICE: Generate a new, random name
+    // This ignores the user's provided filename entirely
+    $new_name = bin2hex(random_bytes(10)) . "." . $extension;
+    
+    move_uploaded_file($_FILES['uploaded_file']['tmp_name'], "uploads/" . $new_name);
+    echo "File uploaded as: " . $new_name;
+} else {
+    echo "Invalid file type!";
+}
+```
