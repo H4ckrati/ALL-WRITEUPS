@@ -18,8 +18,7 @@ All info about SQL injection - String :
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/SQLite%20Injection.md#sqlite-string
 
-
-###### First I discovered that
+###### First I discovered that,
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308100151.png)
 
@@ -31,7 +30,7 @@ To sum it up, `UNION SELECT` acts as a connector that attaches your own data req
 
 ### Find the password :
 
-I did this to find the
+The utility of that command was to force the database to reveal its own internal "blueprint" (schema), allowing you to see exactly how tables like `users` are structured and which columns contain the passwords you need to extract.
 
 ```
 ' UNION SELECT 1,sql FROM sqlite_master--
