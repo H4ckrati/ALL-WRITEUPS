@@ -27,6 +27,7 @@ include($inc);
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308140722.png)
 
+When I enter the config.php file and I see at the decoded version :
 
 ```
 <?php
@@ -37,6 +38,4 @@ $password="DAPt9D2mky0APAF";
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308140706.png)
 
-
-
-
+Flag : DAPt9D2mky0APAF
