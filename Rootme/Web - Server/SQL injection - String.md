@@ -1,4 +1,4 @@
-
+#SQL #SQlite #sql #sql-strings #SQL-strings
 ###### Challenge Description
 https://www.root-me.org/fr/Documentation/Web/Injection-SQL
 
@@ -37,7 +37,6 @@ The utility of that command was to force the database to reveal its own internal
 ```
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308095912.png)
-
 
 
 Payload to find the admin password :
