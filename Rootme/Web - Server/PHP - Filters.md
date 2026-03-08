@@ -12,6 +12,9 @@ https://repository.root-me.org/Programmation/PHP/EN%20-%20Using%20and%20understa
 
 ###### What does includes do ? 
 
+La fonction `include()` permet d'insérer et d'exécuter le contenu d'un fichier externe directement dans le script PHP en cours. C'est un outil très pratique pour réutiliser le même morceau de code, comme un menu ou une configuration, sur plusieurs pages différentes sans avoir à le recopier.
+
+
 
 
 
