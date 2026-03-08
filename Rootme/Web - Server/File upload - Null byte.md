@@ -48,13 +48,9 @@ Flag : YPNchi2NmTwygr2dgCCF
 
 ## WRONG CODE : 
 
->[!note]
->
-> ```
-> 
-> ```
-> 	
+```
 
+```
 
 ## SOLUTION CODE :
 
