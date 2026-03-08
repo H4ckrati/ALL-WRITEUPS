@@ -8,9 +8,10 @@ https://www.root-me.org/fr/Documentation/Web/Injection-SQL
 I tried a basic SQL injection in the login like this but it did not work :
 
 ```
-
+login=administrator' OR '1'='1#&password=AD
 ```
 
+I tried a basic SQL injection in the research section and it wor :
 
 
 All info about SQL injection - String :
