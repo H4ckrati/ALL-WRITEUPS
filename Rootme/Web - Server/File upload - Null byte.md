@@ -48,7 +48,23 @@ Flag : YPNchi2NmTwygr2dgCCF
 
 ## WRONG CODE : 
 
+>[!note]
+>
+
 ```
+// VULNERABLE FILE UPLOAD
+$filename = $_FILES['uploaded_file']['name']; // Input: "shell.php%00.jpg"
+
+// The developer checks for the extension
+if (preg_match('/\.jpg$/', $filename)) {
+    // The check passes because ".jpg" is at the very end!
+    
+    // BUT: When moving the file, the OS stops at the Null Byte
+    // It saves the file as "shell.php" instead of "shell.php\0.jpg"
+    move_uploaded_file($_FILES['uploaded_file']['tmp_name'], "uploads/" . $filename);
+    
+    echo "File uploaded successfully!";
+}
 
 ```
 
@@ -57,6 +73,5 @@ Flag : YPNchi2NmTwygr2dgCCF
 This code wraps the IP in quotes, which means the `ls` command won't be executed as code, but will be treated as a string.
 
 >[!Note]
->``` 
->// SECURE VERSION
-$safe_ip = escapeshellarg($target_ip);
+
+
