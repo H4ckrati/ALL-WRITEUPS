@@ -21,11 +21,16 @@ Remote File Inclusion (RFI) is a vulnerability that lets an attacker include a m
 
 So let's try to explore a little more :
 
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307215118.png)
 
+Go in the admin file :
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307215145.png)
+
+Open the content of index.php in a new tab :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307214919.png)
 
-
-
+I got the creds :     admin /
 
 Flag : OpbNJ60xYpvAQU8
