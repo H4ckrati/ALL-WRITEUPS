@@ -51,9 +51,9 @@ Flag : YPNchi2NmTwygr2dgCCF
 >[!note]
 >
 > ```
-> $command = "ping -c 3 " . $target_ip;
+> 
 > ```
-> 	Here the ```$target_ip ``` is very dangerous because it allows you to execute any command by following the ip with ; (to execute another command after the first one)
+> 	
 
 
 ## SOLUTION CODE :
