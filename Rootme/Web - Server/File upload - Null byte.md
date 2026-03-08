@@ -11,7 +11,7 @@ https://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20Secure%20file%20u
 
 A **null byte**, represented as `%00` in URL encoding or `\x00` in hex, is a control character that signifies the end of a string in many programming languages like C and C++.
 
-In security contexts, it is used to perform an injection attack where a malicious string is terminated early, tricking a system into ignoring the characters that follow it (such as a forced `.jpg` extension).
+In security contexts, it is used to perform an injection attack where a malicious string is terminated early, tricking a system into ignoring the characters that follow it (such as a `.jpg` extension).
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307224150.png)
 
