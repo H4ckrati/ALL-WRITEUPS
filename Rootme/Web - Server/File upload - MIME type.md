@@ -1,13 +1,15 @@
+#MIME #php-MIME #PHP-MIME #php-c 
 
-
-##### Challenge 
+##### Challenge Description
 
 What is MIME type ?
 
 A **MIME type** (Multipurpose Internet Mail Extensions) is a standard label used by browsers and servers to identify the nature and format of a file, such as `text/html` or `image/png`. It ensures that the software knows exactly how to process or display a piece of data based on its specific media type rather than just its file extension.
 
 
+Let's look at the request when I upload a false image :
 
+I changed the name of t
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307203429.png)
 
