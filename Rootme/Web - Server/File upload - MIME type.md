@@ -30,13 +30,14 @@ if(isset($_GET['c'])) {
 ```
 
 
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307203756.png)
 
-
+Then open in a new tab the malicious php code then put in it Burp Repeater like this :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307203734.png)
 
 
-
+Now that we know that it is working let's find the flag
 
 ```
 cat ../../../.passwd
