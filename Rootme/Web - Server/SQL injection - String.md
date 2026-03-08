@@ -12,6 +12,10 @@ I tried a basic SQL injection in the login like this but it did not work :
 ```
 
 
+
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308095912.png)
+
 Payload to find the admin password :
 
 ```
