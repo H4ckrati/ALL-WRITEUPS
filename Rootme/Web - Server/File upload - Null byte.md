@@ -37,7 +37,6 @@ Flag : YPNchi2NmTwygr2dgCCF
 
 Then open in a new tab and find the password :
 
-
 ## WRONG CODE : 
 
 >[!note]
