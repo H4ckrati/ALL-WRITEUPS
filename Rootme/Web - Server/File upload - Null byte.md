@@ -71,7 +71,7 @@ if (preg_match('/\.jpg$/', $filename)) {
 
 ## SOLUTION CODE :
 
-
+This secure version mitigates the risk by stripping null bytes, validating the file extension through a robust path analysis, and completely replacing the user-provided filename with a randomly generated one to prevent any local file system manipulation.
 
 >[!Note]
 ```
