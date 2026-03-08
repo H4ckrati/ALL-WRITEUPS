@@ -12,3 +12,6 @@ if(isset($_GET['c'])) {
 }
 ?>
 ```
+
+
+Flag : YPNchi2NmTwygr2dgCCF
