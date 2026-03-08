@@ -14,7 +14,6 @@ login=administrator' OR '1'='1#&password=AD
 I tried a basic SQL injection in the research section and it worked ! :
 
 
-
 All info about SQL injection - String :
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/SQLite%20Injection.md#sqlite-string
@@ -27,7 +26,10 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/
 The Select doesn't worked like showed in the github :
 ##### Explanation 
 
-You must use **UNION SELECT** because it allows you to "glue" the results of your own malicious query (like extracting passwords) onto the end of the site's legitimate search results, whereas a simple **SELECT** would break the structure of the server's original query.
+To sum it up, `UNION SELECT` acts as a connector that attaches your own data request to the end of the website's original query, allowing you to extract secret information like passwords. A simple `SELECT` fails because it creates two separate, conflicting commands that the database cannot process simultaneously, leading to a syntax error.
+
+
+### Find the password :
 
 I did this to find the
 
