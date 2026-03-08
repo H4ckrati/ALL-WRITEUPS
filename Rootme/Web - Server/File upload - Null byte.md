@@ -37,6 +37,15 @@ Flag : YPNchi2NmTwygr2dgCCF
 
 Then open in a new tab and find the password :
 
+Modified URL :
+
+http://challenge01.root-me.org/web-serveur/ch22/galerie/upload/2ec40fea5de474a2980db35cced66160/images.php?c=id
+
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307235605.png)
+
+Flag : Flag : YPNchi2NmTwygr2dgCCF
+
 ## WRONG CODE : 
 
 >[!note]
