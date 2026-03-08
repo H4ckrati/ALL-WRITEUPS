@@ -33,4 +33,7 @@ Open the content of index.php in a new tab :
 
 I got the creds :     admin / OpbNJ60xYpvAQU8
 
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307215350.png)
+
+
 Flag : OpbNJ60xYpvAQU8
