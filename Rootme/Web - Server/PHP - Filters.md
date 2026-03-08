@@ -47,16 +47,33 @@ After Deconding it ;
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308140722.png)
 
 
+```
+<?php
+$inc="accueil.php";
+if (isset($_GET["inc"])) {
+    $inc=$_GET['inc'];
+    if (file_exists($inc)){
+        $f=basename(realpath($inc));
+        if ($f == "index.php" || $f == "ch12.php"){
+            $inc="accueil.php";
+        }
+    }
+}
+include("config.php");
+// ... (le reste c'est l'affichage HTML)
+include($inc);
+?>
+```
+
 
 When I enter the config.php file and I see at the decoded version :
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308140706.png)
 
 ```
 <?php
 $username="admin";
 $password="DAPt9D2mky0APAF";
 ```
-
-
-![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308140706.png)
 
 Flag : DAPt9D2mky0APAF
