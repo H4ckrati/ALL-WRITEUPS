@@ -16,11 +16,10 @@ Remote File Inclusion (RFI) is a vulnerability that lets an attacker include a m
 
 *Because of the Challenge Description and Name, I thought that I would need to access the page of the admin* :
 
-So let's try that :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307215010.png)
 
-
+So let's try to explore a little more :
 
 
 
