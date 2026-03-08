@@ -32,6 +32,12 @@ if(isset($_GET['c'])) {
 
 Flag : YPNchi2NmTwygr2dgCCF
 
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307234908.png)
+
+Then open in a new tab and find the password :
+
+
 ## WRONG CODE : 
 
 >[!note]
