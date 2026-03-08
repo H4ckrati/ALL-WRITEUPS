@@ -18,6 +18,13 @@ Remote File Inclusion (RFI) is a vulnerability that lets an attacker include a m
 
 So let's try that :
 
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307215010.png)
+
+
+
+
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260307214919.png)
 
 
 
