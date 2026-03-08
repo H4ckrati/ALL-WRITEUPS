@@ -34,32 +34,19 @@ Full Url :
 /web-serveur/ch12/index.php?inc=php://filter/convert.base64-encode/resource=ch12.php
 ```
 
-But How do I know that the source code is in ch12.php :
-In fact, when there is an erro
+
+##### But How do I know that the source code is in ch12.php :
+In fact, when there is an error we can see the path here :
+
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308143140.png)
 
 
+After Deconding it ; 
 
-```
-<?php
-$inc="accueil.php";
-if (isset($_GET["inc"])) {
-    $inc=$_GET['inc'];
-    if (file_exists($inc)){
-        $f=basename(realpath($inc));
-        if ($f == "index.php" || $f == "ch12.php"){
-            $inc="accueil.php";
-        }
-    }
-}
-include("config.php");
-// ... (le reste c'est l'affichage HTML)
-include($inc);
-?>
-
-```
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308140722.png)
+
+
 
 When I enter the config.php file and I see at the decoded version :
 
