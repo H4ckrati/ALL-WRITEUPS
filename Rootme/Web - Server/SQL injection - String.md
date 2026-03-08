@@ -17,6 +17,9 @@ All info about SQL injection - String :
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/SQLite%20Injection.md#sqlite-string
 
+
+I did this to find the
+
 ```
 ' UNION SELECT 1,sql FROM sqlite_master--
 ```
