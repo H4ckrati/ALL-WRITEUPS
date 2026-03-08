@@ -6,6 +6,16 @@ Retrieve the administrator password of this application.
 https://repository.root-me.org/Programmation/PHP/EN%20-%20Using%20and%20understanding%20PHP%20streams%20and%20filters.pdf
 
 
+### Test the Security 
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308141003.png)
+
+###### What does includes do ? 
+
+
+
+
+
 ```
 <?php
 $inc="accueil.php";
