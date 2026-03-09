@@ -21,9 +21,11 @@ https://fusionauth.io/dev-tools/jwt-decoder
 
 **Then to get into the account as admin, I would need to desactivate the algorithm (alg) and put none. Also to modify the username to admin to get into his account ;
 
-*In fact, changing the alg is removing the signature resulting in *
+*In fact, changing the alg is removing the signature so I could then forge the cookie only with a valid username (no need to get the signature)* ;
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
+
+Then go in inspe change the cookie in the main page and here you go :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142848.png)
 
