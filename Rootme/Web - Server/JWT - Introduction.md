@@ -3,6 +3,8 @@
 
 To validate the challenge, connect as admin.
 
+https://portswigger.net/web-security/jwt
+
 #### What is a JWT ? : 
 
 A JWT (JSON Web Token) is a compact, URL-safe way to represent information between two parties as a JSON object. It is most commonly used for authentication because it is digitally signed, ensuring that the data inside hasn't been tampered with after being issued.
