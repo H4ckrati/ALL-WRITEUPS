@@ -55,14 +55,9 @@ Burpsuite scan identifies if there is any flaws with jwt token
 
   
 
->[!note
-How to crack signatures ? 
-Basically hashcat tries to find the good combination to get the same result at the signature. So hashcat with every word of the wordlist do a mathematic calcul and combine them with the header and payload and tries to see if its = your signature
+>[!note] How to crack signatures ? 
+>Basically hashcat tries to find the good combination to get the same result at the signature. So hashcat with every word of the wordlist do a mathematic calcul and combine them with the header and payload and tries to see if its = your signature 
+>```
+>hashcat -a 0 -m 16500 <jwt> <wordlist>
+>```
 
-
-
-Basically hashcat tries to find the good combination to get the same result at the signature. So hashcat with every word of the wordlist do a mathematic calcul and combine them with the header and payload and tries to see if its = your signature
-
-  
-
-hashcat -a 0 -m 16500 <jwt> <wordlist>
