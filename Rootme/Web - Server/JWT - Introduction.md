@@ -25,16 +25,9 @@ https://fusionauth.io/dev-tools/jwt-decoder
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
 
-Then go in inspe change the cookie in the main page and here you go :
+Then go in inspect, change the cookie in the main page and here you go :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142848.png)
-
-
-
-
-
-
-
 
 
 Flag : S1gn4tuR3_v3r1f1c4t10N_1S_1MP0Rt4n7
