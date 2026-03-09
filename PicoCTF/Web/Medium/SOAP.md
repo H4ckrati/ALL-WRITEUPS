@@ -14,14 +14,16 @@ And After reading the code file, I understood that each time I click on details,
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260308235805.png)
 
-Then after refreshing the 
+Then after clicking on details ,
+
+![](../../PicoCTF-assets/Pasted%20image%2020260309000040.png)
 
 
-
+I found this request in BurpSuite,
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260308233622.png)
 
-
+### 
 According to the challenge description I need to find the flag in /etc/passwd :
 
 ```
