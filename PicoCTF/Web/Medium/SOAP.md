@@ -6,6 +6,12 @@ The web project was rushed and no security assessment was done. Can you read the
 
 #### Understanding 
 
+I went in the Debugger tab then I tried to understand what was happening in there. 
+
+And After reading the code file, I understood that each time I click on details, a
+
+![](../../PicoCTF-assets/Pasted%20image%2020260308235805.png)
+
 
 
 
