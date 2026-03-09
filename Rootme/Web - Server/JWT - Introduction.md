@@ -50,14 +50,16 @@ It is in Json format.
 The signature = header + payload 
 
   
-![!note] BurpSuite and JWT
+>[!note] BurpSuite and JWT
 Burpsuite scan identifies if there is any flaws with jwt token
 
   
 
-How to crack signatures ?
+>[!note
+How to crack signatures ? 
+Basically hashcat tries to find the good combination to get the same result at the signature. So hashcat with every word of the wordlist do a mathematic calcul and combine them with the header and payload and tries to see if its = your signature
 
-  
+
 
 Basically hashcat tries to find the good combination to get the same result at the signature. So hashcat with every word of the wordlist do a mathematic calcul and combine them with the header and payload and tries to see if its = your signature
 
