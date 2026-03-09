@@ -6,6 +6,11 @@ The web project was rushed and no security assessment was done. Can you read the
 ## What is a XXE ?
 
 XML External Entity (XXE) injection is a security vulnerability where an improperly configured XML parser allows a document to define custom entities that point to external resources. By exploiting this, an attacker can force the server to disclose sensitive local files, perform internal network requests (SSRF), or cause a Denial of Service.
+
+###### XML parser : 
+
+An **XML parser** is a software library or engine that reads an XML document and translates it into a format that an application can understand and manipulate. It acts as the "translator" between the raw text file and the code.
+
 #### Understanding 
 
 I went in the Debugger tab then I tried to understand what was happening in there. 
