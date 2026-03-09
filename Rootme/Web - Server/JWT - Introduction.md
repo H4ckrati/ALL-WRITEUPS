@@ -33,4 +33,37 @@ Then go in inspect, change the cookie in the main page and here you go :
 Flag : S1gn4tuR3_v3r1f1c4t10N_1S_1MP0Rt4n7
 
 
-## Explanation of JWT 
+## Explanation of JWT : 
+
+JWT contains 3 parts : 
+
+>[!note]
+Header ,
+Payload,
+Signature --> This is very important for security
+
+  
+
+Json format
+
+  
+
+signature = header + payload 
+
+  
+
+  
+
+Burpsuite scan identifies if there is any flaws with jwt token
+
+  
+
+How to crack signatures ?
+
+  
+
+Basically hashcat tries to find the good combination to get the same result at the signature. So hashcat with every word of the wordlist do a mathematic calcul and combine them with the header and payload and tries to see if its = your signature
+
+  
+
+hashcat -a 0 -m 16500 <jwt> <wordlist>
