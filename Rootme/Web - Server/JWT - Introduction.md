@@ -1,13 +1,16 @@
-#jwt #JWT #JWT-signature #
+#jwt #JWT #JWT-signature #JWT-SIGNATURE
 ##### Challenge Description 
 
 To validate the challenge, connect as admin.
 
 
+First. 
 
 
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142848.png)
 
 
 
