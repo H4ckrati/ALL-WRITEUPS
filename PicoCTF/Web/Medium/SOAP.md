@@ -3,16 +3,18 @@
 
 The web project was rushed and no security assessment was done. Can you read the /etc/passwd file?[Web Portal](http://saturn.picoctf.net:61991/)
 
+## What is a XXE ?
+
 
 #### Understanding 
 
 I went in the Debugger tab then I tried to understand what was happening in there. 
 
-And After reading the code file, I understood that each time I click on details, a
+And After reading the code file, I understood that each time I click on details, it fetches the details thanks to xml so I needed to do an XXE
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260308235805.png)
 
-
+Then after refreshing the 
 
 
 
