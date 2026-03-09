@@ -5,12 +5,12 @@ The web project was rushed and no security assessment was done. Can you read the
 
 ## What is a XXE ?
 
-
+XML External Entity (XXE) injection is a security vulnerability where an improperly configured XML parser allows a document to define custom entities that point to external resources. By exploiting this, an attacker can force the server to disclose sensitive local files, perform internal network requests (SSRF), or cause a Denial of Service.
 #### Understanding 
 
 I went in the Debugger tab then I tried to understand what was happening in there. 
 
-And After reading the code file, I understood that each time I click on details, it fetches the details thanks to xml so I needed to do an XXE
+And After reading the code file, I understood that each time I click on details, it fetches the details in xml so I needed to do an XXE
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260308235805.png)
 
@@ -23,7 +23,8 @@ I found this request in BurpSuite,
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260308233622.png)
 
-### 
+### Get the content of /etc/passwd using XXE
+
 According to the challenge description I need to find the flag in /etc/passwd :
 
 ```
