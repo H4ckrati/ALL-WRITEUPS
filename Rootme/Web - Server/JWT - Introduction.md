@@ -37,7 +37,7 @@ Flag : S1gn4tuR3_v3r1f1c4t10N_1S_1MP0Rt4n7
 
 JWT contains 3 parts : 
 
->[!note].   See the image 
+>[!note]   See the image above 
 Header , --> informations for example a username
 Payload, --> the typ and alg
 Signature --> This is very important for security
