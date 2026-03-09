@@ -4,8 +4,16 @@
 To validate the challenge, connect as admin.
 
 
-First. 
+What is a JWT ? : 
 
+
+
+First, to get a cookie let's login as guest,
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142947.png)
+
+
+Let's see the JWT in
 
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
