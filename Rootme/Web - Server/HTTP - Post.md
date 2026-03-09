@@ -1,7 +1,7 @@
 
 ##### Challenge Description :
 
-Find a way to beat the top score!
+Find a way to beat the top score :
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260306115209.png)
 
