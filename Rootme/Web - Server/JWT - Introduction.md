@@ -3,12 +3,12 @@
 
 To validate the challenge, connect as admin.
 
+#### What is a JWT ? : 
 
-What is a JWT ? : 
+A JWT (JSON Web Token) is a compact, URL-safe way to represent information between two parties as a JSON object. It is most commonly used for authentication because it is digitally signed, ensuring that the data inside hasn't been tampered with after being issued.
 
 
-
-First, to get a cookie let's login as guest,
+#### First, to get a cookie let's login as guest,
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142947.png)
 
@@ -19,6 +19,8 @@ https://fusionauth.io/dev-tools/jwt-decoder
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309143110.png)
 
+
+#### Flag :
 **Then to get into the account as admin, I would need to desactivate the algorithm (alg) and put none. Also to modify the username to admin to get into his account ;
 
 *In fact, changing the alg is removing the signature so I could then forge the cookie only with a valid username (no need to get the signature)* ;
