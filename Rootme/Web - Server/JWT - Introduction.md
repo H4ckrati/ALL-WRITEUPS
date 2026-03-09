@@ -19,7 +19,9 @@ https://fusionauth.io/dev-tools/jwt-decoder
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309143110.png)
 
-Then to get into the account as admin, I would need to desactivate the algorithm
+**Then to get into the account as admin, I would need to desactivate the algorithm (alg) and put none. Also to modify the username to admin to get into his account ;
+
+*In fact, *
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
 
