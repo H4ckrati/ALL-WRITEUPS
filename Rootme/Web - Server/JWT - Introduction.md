@@ -19,7 +19,7 @@ https://fusionauth.io/dev-tools/jwt-decoder
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309143110.png)
 
-Then to get into the account as admin, I would need to desactivate the alg
+Then to get into the account as admin, I would need to desactivate the algorithm
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
 
