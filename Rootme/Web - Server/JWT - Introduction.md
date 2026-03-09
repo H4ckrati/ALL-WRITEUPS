@@ -1,10 +1,13 @@
-
+#jwt #JWT #JWT-signature #
 ##### Challenge Description 
 
 To validate the challenge, connect as admin.
 
 
 
+
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
 
 
 
