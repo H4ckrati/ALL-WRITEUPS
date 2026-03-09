@@ -13,8 +13,13 @@ First, to get a cookie let's login as guest,
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142947.png)
 
 
-Let's see the JWT in
+Let's see the cookie in this site : 
 
+https://fusionauth.io/dev-tools/jwt-decoder
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309143110.png)
+
+Then to get into the account as admin, I would need to desactivate the alg
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309142749.png)
 
