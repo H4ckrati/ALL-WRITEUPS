@@ -42,18 +42,15 @@ Header , --> informations for example a username
 Payload, --> the typ and alg
 Signature --> This is very important for security
 
-  
 
-Json format
-
-  
-
-signature = header + payload 
+It is in Json format.
 
   
 
-  
+The signature = header + payload 
 
+  
+![!note] BurpSuite and JWT
 Burpsuite scan identifies if there is any flaws with jwt token
 
   
