@@ -35,19 +35,13 @@ Flag : S1gn4tuR3_v3r1f1c4t10N_1S_1MP0Rt4n7
 
 ## Explanation of JWT : 
 
-JWT is JWT contains 3 parts : 
+JWT is in JSON format and it contains 3 parts : 
 
 >[!note]   See the image above 
 Header , --> informations for example a username
 Payload, --> the typ and alg
 Signature --> This is very important for security
 The signature = Header + Payload + Secret Key + Hash
-
-
-
-It is in Json format.
-
-  
 
   
 >[!note] BurpSuite and JWT
