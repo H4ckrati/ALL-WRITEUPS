@@ -31,3 +31,6 @@ Then go in inspect, change the cookie in the main page and here you go :
 
 
 Flag : S1gn4tuR3_v3r1f1c4t10N_1S_1MP0Rt4n7
+
+
+## Explanation of JWT 
