@@ -18,9 +18,11 @@ Let's open the webpage ;
 
 ![](ALL-WRITEUPS/PicoCTF/PicoCTF-assets/Pasted%20image%2020260309202928.png)
 
-Then let
+Then let's access /token
 
 ![](ALL-WRITEUPS/PicoCTF/PicoCTF-assets/Pasted%20image%2020260309202945.png)
+
+Trying to crack it using hashcat with this special mode (we know that this is a weak secret)
 
 ```
 hashcat -a 0 -m 16500 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiZ3Vlc3QifQ.4kBPNf7Y6BrtP-Y3A-vQXPY9jAh_d0E6L4IUjL65CvmEjgdTZyr2ag-TM-glH6EYKGgO3dBYbhblaPQsbeClcw /usr/share/wordlists/rockyou.txt -w 1 --force
