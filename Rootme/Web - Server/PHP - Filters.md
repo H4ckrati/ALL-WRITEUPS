@@ -41,7 +41,7 @@ In fact, when there is an error we can see the path here :
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308143140.png)
 
 
-After Deconding it ; 
+After Decoding it ; 
 
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260308140722.png)
