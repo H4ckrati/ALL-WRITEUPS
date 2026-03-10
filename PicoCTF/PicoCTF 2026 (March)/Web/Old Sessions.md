@@ -13,7 +13,18 @@ When I went to the mainpage, I saw this comment :
 ![](../../PicoCTF-assets/Pasted%20image%2020260309225122.png)
 
 
-After visiting the /sessions pag
+After visiting the /sessions page I saw this : 
+
+![](../../PicoCTF-assets/Pasted%20image%2020260309225246.png)
+
+I then got the cookie of the admin, let's change the cookie and replace it with this : 
+
+```
+oZDLGiZYG07nb903q0uUQkZgQuXzZaPvIxp8F9uP8ZU
+```
+
+Here we go : 
+
 ![](../../PicoCTF-assets/Pasted%20image%2020260309224941.png)
 
 
