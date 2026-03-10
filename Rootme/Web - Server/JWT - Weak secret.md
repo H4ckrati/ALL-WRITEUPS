@@ -31,6 +31,8 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiZ3Vlc3QifQ.4kBPNf7Y6BrtP-Y3A-vQ
 
 ```
 
+T
+
 
 Because of the challenge Descrption, I knew that I need to change the method to post and to give the token in a HTTP header to be able to get the flag : 
 
