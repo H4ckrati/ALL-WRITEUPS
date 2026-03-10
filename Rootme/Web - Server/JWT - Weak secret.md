@@ -31,7 +31,9 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiZ3Vlc3QifQ.4kBPNf7Y6BrtP-Y3A-vQ
 
 ```
 
-Then modify the token in this website
+Then modify the token by putting the signature to lol and changing the role to admin in this website : https://jwt.lannysport.net/
+
+![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260309204949.png)
 
 
 Because of the challenge Descrption, I knew that I need to change the method to post and to give the token in a HTTP header to be able to get the flag : 
