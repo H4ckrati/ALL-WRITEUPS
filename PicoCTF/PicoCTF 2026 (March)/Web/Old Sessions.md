@@ -12,6 +12,7 @@ When I went to the mainpage, I saw this comment :
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260309225122.png)
 
+#### Finding the Flag : 
 
 After visiting the /sessions page I saw this : 
 
@@ -27,5 +28,6 @@ Here we go :
 
 ![](../../PicoCTF-assets/Pasted%20image%2020260309224941.png)
 
+Flag : picoCTF{s3t_s3ss10n_3xp1rat10n5_ed8964c2}
 
 
