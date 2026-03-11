@@ -1,3 +1,4 @@
+#XXE #xxe #RSS #rss
 ##### Challenge Description 
 
 Retrieve the administrator password.
@@ -147,4 +148,6 @@ Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*rUYzq9rLswglSrdpvX3vQw.png)
 
+
+### Explanation of the payload :
 
