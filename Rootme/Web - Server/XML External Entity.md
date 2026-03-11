@@ -2,6 +2,10 @@
 
 Retrieve the administrator password.
 
+>[!note] What is RSS ?
+>RSS (Really Simple Syndication) is a standardized XML-based web feed that allows users and applications to receive automatic, real-time updates from their favorite websites in a simplified, text-based format.
+
+
 Consequently, I visited [https://pastebin.com](https://pastebin.com/) and uploaded a payload that returned the backend source code of index.php, encoded using base64.
 
 You can access the payload here: [https://pastebin.com/raw/Kyr9Rpu0](https://pastebin.com/raw/Kyr9Rpu0)
