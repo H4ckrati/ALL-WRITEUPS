@@ -1,4 +1,4 @@
-#kpcli #puTTY #keepass #putty #PUTTY
+#scp #SCP #kpcli #puTTY #keepass #putty #PUTTY 
 ## Introduction
 
 Before starting to present the way it has been taken to solve Keeper machine, I will present an outline with the concepts that will be used to solve challenge:
@@ -123,3 +123,10 @@ Once both keys have been obtained, all that remains is to connect via SSH with t
 >**kpcli** is a command-line interface for KeePass database files, allowing you to manage and view your passwords directly from a Linux terminal without needing a graphical interface. It’s essentially a "shell" specifically designed to navigate the folders and entries of a `.kdbx` file using familiar commands like `ls` and `cd`.
 
 
+Download ssh files into my machine : 
+
+```
+$ scp lnorgaard@keeper.htb:/home/lnorgaard/RT30000.zip . 
+lnorgaard@keeper.htb's password: 
+RT30000.zip
+```
