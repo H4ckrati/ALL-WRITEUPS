@@ -113,14 +113,13 @@ puttygen clave.ppk -O private-openssh -o id_rsa # Generates openssh private key 
 Once both keys have been obtained, all that remains is to connect via SSH with the private key to root's account.
 
 [![root.png](https://camo.githubusercontent.com/465c8a9d6fb6d5d537f740c572479c5a64b13d320da1ddfb3fa47ff172b3b1f4/68747470733a2f2f692e706f7374696d672e63632f744a3343367833462f726f6f742e706e67)](https://postimg.cc/wRBp83bB)
-### Explanation
+### More Explanation
 
 >[!note] Why did we use puTTY ?
 >The key I found starts with **`PuTTY-User-Key-File-3`**. This is a proprietary format created for the **PuTTY** software (Windows). Your Kali machine's SSH client (**OpenSSH**) only understands its own format, which normally begins with **`-----BEGIN OPENSSH PRIVATE KEY-----`**.
 
 
 >[!note] What is kpcli and Why did we use it ?
->## Gemini a dit
+>**kpcli** is a command-line interface for KeePass database files, allowing you to manage and view your passwords directly from a Linux terminal without needing a graphical interface. It’s essentially a "shell" specifically designed to navigate the folders and entries of a `.kdbx` file using familiar commands like `ls` and `cd`.
 
-**kpcli** is a command-line interface for KeePass database files, allowing you to manage and view your passwords directly from a Linux terminal without needing a graphical interface. It’s essentially a "shell" specifically designed to navigate the folders and entries of a `.kdbx` file using familiar commands like `ls` and `cd`.
->
+
