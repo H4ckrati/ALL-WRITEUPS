@@ -33,12 +33,14 @@ Request Tracker (RT) version 4.4.4+dfsg-2ubuntu1 (often found in Ubuntu Jammy/22
 
 
 
+Let's try to explore and get some users credentials to try to login using ssh 
+
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311045610.png)
 
 So let's try to login with SSH using her credentials :
 
 lnorgaard / Welcome2023!
 
-
+It worked !
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311045517.png)
