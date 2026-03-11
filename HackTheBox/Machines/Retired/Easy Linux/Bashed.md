@@ -1,4 +1,5 @@
 
+Let's do a quick nmap
 
 ```
 nmap 10.129.3.6                  
@@ -13,7 +14,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1.16 seconds
 
 ```
 
-
+Let's find some hidden directories : 
 
 ```
 gobuster dir -u http://10.129.3.6/ --wordlist /usr/share/seclists/Discovery/Web-Content/common.txt       
@@ -44,18 +45,17 @@ Finished
 ```
 
 
-After going of the Webpage I discovered these two pages : 
+###### After going of the Webpage I discovered these two pages : 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311025104.png)
 
 
-After clicking on phpbash.min.
-I then have access to a terminal like this : 
+###### After clicking on phpbash.min.php, I have access to a terminal like this : 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311025130.png)
 
 
-Then I need to find user.txt : 
+###### Then I need to find user.txt : 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311024849.png)
 
