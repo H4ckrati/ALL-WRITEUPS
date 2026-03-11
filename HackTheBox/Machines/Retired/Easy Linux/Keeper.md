@@ -31,3 +31,10 @@ Request Tracker (RT) version 4.4.4+dfsg-2ubuntu1 (often found in Ubuntu Jammy/22
     Username: root
     Password: password 
 
+
+
+
+
+
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311045517.png)
