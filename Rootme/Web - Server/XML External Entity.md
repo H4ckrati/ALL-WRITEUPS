@@ -6,6 +6,31 @@ Retrieve the administrator password.
 >RSS (Really Simple Syndication) is a standardized XML-based web feed that allows users and applications to receive automatic, real-time updates from their favorite websites in a simplified, text-based format.
 
 
+>[note] Basic Structure of RSS 
+>```
+> <?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>W3Schools Home Page</title>
+  <link>https://www.w3schools.com</link>
+  <description>Free web building tutorials</description>
+  <item>
+    <title>RSS Tutorial</title>
+    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+    <description>New RSS tutorial on W3Schools</description>
+  </item>
+  <item>
+    <title>XML Tutorial</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>New XML tutorial on W3Schools</description>
+  </item>
+</channel>
+
+</rss> 
+>```
+>
+
 Consequently, I visited [https://pastebin.com](https://pastebin.com/) and uploaded a payload that returned the backend source code of index.php, encoded using base64.
 
 You can access the payload here: [https://pastebin.com/raw/Kyr9Rpu0](https://pastebin.com/raw/Kyr9Rpu0)
