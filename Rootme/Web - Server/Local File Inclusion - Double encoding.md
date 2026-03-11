@@ -59,14 +59,12 @@ Good Luck !
 
 ### Explanation: 
 
-
->[!note]
-
-
->[!note]
+>[!note] What is conf.inc.php ?
 >
 >In PHP applications, `conf.inc.php` is a **configuration file** used to store global variables, site settings, or sensitive credentials like database passwords.
-The `.inc` extension is a naming convention (shorthand for "include") indicating that the file is not meant to be accessed directly by a browser, but rather imported into other scripts using `include()` or `require()`.
-In the context of your challenge, this file was the "treasure chest" because it contained the hardcoded `$flag` variable that was never intended to be displayed to the public.
+>
+The `.inc` extension is a naming convention (shorthand for "include") indicating that the file is not meant to be accessed directly by a browser, but rather imported into other scripts using `include()` or `require()`. 
+In the context of your challenge, this file was the "treasure chest" because it contained the 
+hardcoded `$flag` variable that was never intended to be displayed to the public.
 
 
