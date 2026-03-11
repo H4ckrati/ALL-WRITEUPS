@@ -97,6 +97,26 @@ sudo -u scriptmanager /bin/bash
 ```
 
 
+As we see there is a folder “scripts” and there are two files in it :
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034854.png)
+
+
+test.txt is owned by root and we can modify the test.py. Let’s cat the content of test.py :
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034906.png)
+
+
+Which means this python script (which is owned by scriptmanager) opens test.txt and wrtites “testing 123!” on it.
+
+I used the process monitoring tool pspy64 to check if any cron jobs executed by the root user were interacting with the scripts folder. Fortunately, I discovered that the root user accesses this folder every minute and executes all .py files inside it with root privileges. You can verify this by the UID=0 shown in the screenshot, which is assigned to the root user. This explains why the scriptmanager user is able to modify a file owned by root.
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034919.png)
+
+
+T
+
+
 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034223.png)
