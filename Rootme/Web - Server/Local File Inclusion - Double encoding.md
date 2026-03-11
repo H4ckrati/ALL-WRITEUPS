@@ -21,16 +21,13 @@ it works only with double decode .
 Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*Ka9g8CZepyLhP3S0MedEzg.png)
-
 but if we use double decode for ../ like this : %252e%252e%2f
 
 it will works and will tell us that there are error in the included files
 
-Press enter or click to view image in full size
-
 ![](https://miro.medium.com/v2/resize:fit:1400/1*-1bGfeaNrAO1tYszEvZVTg.png)
 
-so we can geuss the name of the file that is **_conf_**.inc.php this is a famous file in the php configuration now we can request it by it’s name in the page parameter
+So we can guess the name of the file that is **_conf_**.inc.php this is a famous file in the php configuration now we can request it by it’s name in the page parameter
 
 Press enter or click to view image in full size
 
