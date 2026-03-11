@@ -44,15 +44,18 @@ Finished
 ```
 
 
-
+After going of the Webpage I discovered these two pages : 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311025104.png)
 
 
+After clicking on phpbash.min.
+I then have access to a terminal like this : 
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311025130.png)
 
 
-
-
+Then I need to find user.txt : 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311024849.png)
 
