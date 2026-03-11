@@ -3,6 +3,7 @@
 
 we found port 22 and 80 running on the target machine using the full Nmap service version and script scan.
   
+```
 ┌──(kali㉿kali)-[~/Documents/HTB/Keeper]  
 └─$ sudo nmap -p $ports -sVC $target                                                                                
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-10 07:19 EDT  
@@ -21,6 +22,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
   
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .  
 Nmap done: 1 IP address (1 host up) scanned in 21.16 seconds
+```
 
 Now, that we look at the webpage hosted on port 80, it says:
 
@@ -36,17 +38,6 @@ after a quick google search on ‘RT 4.4.4+dfsg’. It appears to be a request t
 
 User: root Pass: password
 
-## Get M1NUx’s stories in your inbox
-
-Join Medium for free to get updates from this writer.
-
-Subscribe
-
-Remember me for faster sign in
-
-if we look at all the users present on this portal. **Admin > Users > Select**
-
-Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*ViCdUsBFWSi5NYv-ZM59MQ.png)
 
@@ -64,6 +55,7 @@ we found two files, one is our user flag and the other is a zip file.
 
 let’s get this files into our local machine and analyse them
 
+```
 ┌──(kali㉿kali)-[~/Documents/HTB/Keeper]  
 └─$ scp lnorgaard@10.10.11.227:/home/lnorgaard/RT30000.zip .  
 lnorgaard@10.10.11.227s password:   
@@ -74,6 +66,7 @@ RT30000.zip                                                100%   83MB 513.7KB/s
 Archive:  RT30000.zip  
   inflating: KeePassDumpFull.dmp       
  extracting: passcodes.kdbx
+```
 
 the zip file consists of a keepass database file and a password dump file. if we google “keepass vulnerability”, We come across **CVE-2023–3278**. Here, is the Proof of Concept for this vulnerability [here](https://github.com/z-jxy/keepass_dump/tree/main).
 
@@ -103,8 +96,11 @@ Press enter or click to view image in full size
 
 “rødgrød **med** fløde” appears to be some traditional Danish recipe, lets try this as password for the password database. For this we require a kpcli, which is a command line interface for keepass.
 
-#installation  
+#installation-kpcli
+
+```
 sudo apt-get install kpcli -y  
+```
   
 ┌──(kali㉿kali)-[~/Documents/HTB/keeper]  
 └─$ kpcli  
