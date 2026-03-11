@@ -1,4 +1,4 @@
-
+#kpcli
 ## Introduction
 
 Before starting to present the way it has been taken to solve Keeper machine, I will present an outline with the concepts that will be used to solve challenge:
@@ -56,7 +56,6 @@ wfuzz -c -t 200 -hc 302 -w /usr/share/SecLists/Discovery/Web-Content/directory-l
 
 ## Exploitation Phase
 
-[](https://github.com/3mpir3Albert/HTB_Keeper#exploitation-phase)
 
 At [http://tickets.keeper.htb/rt](http://tickets.keeper.htb/rt) there is another authentication panel that can be used to enter the root credentials and enter "request tracker" as this user. Once there, you can access as much information as possible, as the access was made with the user with maximum privileges, so all the ticket history was accessed and this information can be seen there:
 
