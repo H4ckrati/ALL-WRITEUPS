@@ -19,7 +19,6 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 
-
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311044113.png)
 
 
