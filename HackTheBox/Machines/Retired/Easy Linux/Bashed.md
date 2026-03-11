@@ -1,4 +1,4 @@
-
+#cronjob #cronjobs #UID
 Let's do a quick nmap
 
 ```
@@ -102,14 +102,14 @@ sudo -l
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311035144.png)
 
-I can r
+I can go into scriptmanager without being root with this command : 
 
 ```
 sudo -u scriptmanager /bin/bash
 ```
 
 
-As we see there is a folder “scripts” and there are two files in it :
+In the /,  we see there is a folder “scripts” and there are two files in it :
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034854.png)
 
