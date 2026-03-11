@@ -33,7 +33,11 @@ Request Tracker (RT) version 4.4.4+dfsg-2ubuntu1 (often found in Ubuntu Jammy/22
 
 
 
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311045610.png)
 
+So let's try to login with SSH using her credentials :
+
+lnorgaard / Welcome2023!
 
 
 
