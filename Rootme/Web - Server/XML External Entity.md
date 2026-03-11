@@ -4,26 +4,21 @@ Retrieve the administrator password.
 
 Consequently, I visited [https://pastebin.com](https://pastebin.com/) and uploaded a payload that returned the backend source code of index.php, encoded using base64.
 
-
 You can access the payload here: [https://pastebin.com/raw/Kyr9Rpu0](https://pastebin.com/raw/Kyr9Rpu0)
-
-Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*J5BHsHJJY0r7ZfRlow1IlQ.png)
 
-figure 4
 
 Then I copied the raw link from Pastebin and injected it into the URL input.
 
-Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*cxQklji22tKWARbr2dS5ww.png)
 
-figure 5
 
 Now that I’ve obtained the encoded Base64 source code, I opened the decoder in Burp Suite and decoded it, resulting in the PHP source code.
 
-<?php  
+```
+ <?php  
   
 echo '<html>';  
 echo '<header><title>XXE</title></header>';  
@@ -100,21 +95,19 @@ echo '</body></html>';
 
 print "Flag: ".file_get_contents(".passwd")."<br />";
 
+```
+
 So, to get the flag, I must retrieve the content of the `.passwd` file. Then, I created a new Pastebin link by simply changing `index.php` to `.passwd` in order to obtain the password.
 
 Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*-cXkCvvKWXt_q5KslaitBA.png)
 
-figure 6
 
 So, I copied the Pastebin link ([https://pastebin.com/raw/tbCiMmPf](https://pastebin.com/raw/tbCiMmPf)) and pasted it into the vulnerable function, and the XML document was successfully validated.
 
-Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*XCEQ2qIQvmqJO7CELMo1Lw.png)
-
-figure 7
 
 Now, I have successfully obtained the encoded base64 flag.
 
@@ -122,6 +115,4 @@ Press enter or click to view image in full size
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*rUYzq9rLswglSrdpvX3vQw.png)
 
-figure 8
 
-Finally, I have completed the write-up detailing the solution to the XXE web security challenge on the [RootMe](https://www.root-me.org/?lang=en) platform. I hope you find it enjoyable.
