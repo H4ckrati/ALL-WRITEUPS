@@ -20,6 +20,10 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 
 
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311044113.png)
+
+
+
 
 The default credentials for
 Request Tracker (RT) version 4.4.4+dfsg-2ubuntu1 (often found in Ubuntu Jammy/22.04 environments) are: 
