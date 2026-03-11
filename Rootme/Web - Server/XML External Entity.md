@@ -6,9 +6,10 @@ Retrieve the administrator password.
 >RSS (Really Simple Syndication) is a standardized XML-based web feed that allows users and applications to receive automatic, real-time updates from their favorite websites in a simplified, text-based format.
 
 
->[note] Basic Structure of RSS 
->```
-> <?xml version="1.0" encoding="UTF-8" ?>
+ Basic Structure of RSS  :
+ 
+```
+ <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 
 <channel>
@@ -28,8 +29,9 @@ Retrieve the administrator password.
 </channel>
 
 </rss> 
->```
->
+```
+
+
 
 Consequently, I visited [https://pastebin.com](https://pastebin.com/) and uploaded a payload that returned the backend source code of index.php, encoded using base64.
 
@@ -37,6 +39,7 @@ You can access the payload here: [https://pastebin.com/raw/Kyr9Rpu0](https://pa
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*J5BHsHJJY0r7ZfRlow1IlQ.png)
 
+#### Explanation of the payload : 
 
 Then I copied the raw link from Pastebin and injected it into the URL input.
 
