@@ -1,4 +1,4 @@
-#LFI #RFI
+#LFI 
 ##### Challenge Description 
 
 Get in the admin section.

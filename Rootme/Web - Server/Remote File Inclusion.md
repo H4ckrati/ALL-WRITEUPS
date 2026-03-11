@@ -3,14 +3,12 @@
 
 Get the PHP source code.
 
+#### What is RFI ?
 
-Hello! Today we will learn about RFI from a challenge from [root-me.org](https://www.root-me.org/?page=news&lang=fr). If you wish to understand about RFI and LFI in theory, you can look it up on my [post](https://joshuanatan.medium.com/remote-file-inclusion-local-file-inclusion-rfi-lfi-c5911c0a1a5a) before. I do believe it will help you to understand. Now, let’s begin!
+A Remote File Inclusion (RFI) is a vulnerability that allows an attacker to force a web application to include and execute a file hosted on an external server. This flaw typically occurs when an application improperly validates user input in a file path, potentially leading to full system compromise through the execution of malicious scripts.
 
-Press enter or click to view image in full size
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*c7_pZHPweLGCDs3tKgFL9g.png)
 
-Challenge Information
 
 ## Information Gathering
 
@@ -87,4 +85,9 @@ Flag : R3m0t3_iS_r3aL1y_3v1l
 
 Congratulations! you have tried to exploit RFI, and I really hope it encourages you to learn more. I think this is really interesting especially when you finally understand how RFI exploitation works. I wrote a deep explanation of RFI and LFI in this [post](https://joshuanatan.medium.com/remote-file-inclusion-local-file-inclusion-rfi-lfi-c5911c0a1a5a). Using this post, you will understand deeper about RFI and LFI exploitation.
 
-##### Include can be very dangerous
+##### Include can be very dangerous 
+
+### Why does it works ?
+
+>[!note]
+>The `include()` function treats the `php://filter` string as a valid stream wrapper, allowing it to open the targeted file through a transformation layer instead of just a standard path. Because the guard only checks the filename and not the protocol, the "tuyau magique" remains active and bypasses the security logic that usually blocks direct access to `ch12.php`. Finally, the filter converts the file's content into Base64, which prevents the server from executing the PHP code and instead forces it to display the raw source text directly on your screen.

@@ -78,7 +78,7 @@ $password="DAPt9D2mky0APAF";
 
 Flag : DAPt9D2mky0APAF
 
-### Why does it works ?
+### How does it works ?
 
 >[!note]
 >The `include()` function treats the `php://filter` string as a valid stream wrapper, allowing it to open the targeted file through a transformation layer instead of just a standard path. Because the guard only checks the filename and not the protocol, the "tuyau magique" remains active and bypasses the security logic that usually blocks direct access to `ch12.php`. Finally, the filter converts the file's content into Base64, which prevents the server from executing the PHP code and instead forces it to display the raw source text directly on your screen.
