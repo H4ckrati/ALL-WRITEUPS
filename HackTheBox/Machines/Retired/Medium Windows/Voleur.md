@@ -86,5 +86,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version
 ```
 
+http://localhost:8080/ui/explore
 
-![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311232618.png)
+admin
+ZQJqIiYkrxXXMHp5ow3vz5se3R6E585e
