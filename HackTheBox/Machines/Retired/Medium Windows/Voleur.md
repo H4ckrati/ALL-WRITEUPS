@@ -47,3 +47,4 @@ setup nxc
 ![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311223904.png)
 
 
+1. [https://hashcat.net/wiki/doku.php?id=example_hashes](https://hashcat.net/wiki/doku.php?id=example_hashes "https://hashcat.net/wiki/doku.php?id=example_hashes")
