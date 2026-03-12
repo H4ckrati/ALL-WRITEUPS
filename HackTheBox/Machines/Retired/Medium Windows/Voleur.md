@@ -73,3 +73,15 @@ Session completed.
 Todd.Wolfe : NightT1meP1dg3on14
 svc_ldap : M1XyC9pW7qT5Vn
 svc_iis : N5pXyW1VqM7CZ8
+
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311232503.png)
+
+ZQJqIiYkrxXXMHp5ow3vz5se3R6E585e
+
+```
+sudo rm /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/v5.0.2/docker-compose-linux-aarch64 -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose version
+```
