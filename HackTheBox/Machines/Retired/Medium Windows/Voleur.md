@@ -40,3 +40,10 @@ Host script results:
 
 
 ```
+
+
+setup nxc
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311223904.png)
+
+
