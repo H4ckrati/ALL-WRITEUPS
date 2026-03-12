@@ -48,3 +48,20 @@ setup nxc
 
 
 1. [https://hashcat.net/wiki/doku.php?id=example_hashes](https://hashcat.net/wiki/doku.php?id=example_hashes "https://hashcat.net/wiki/doku.php?id=example_hashes")
+see dis
+
+```
+john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (Office, 2007/2010/2013 [SHA1 128/128 ASIMD 4x / SHA512 128/128 ASIMD 2x AES])
+Cost 1 (MS Office version) is 2013 for all loaded hashes
+Cost 2 (iteration count) is 100000 for all loaded hashes
+Will run 3 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:00:01 0.00% (ETA: 01:49:54) 0g/s 226.4p/s 226.4c/s 226.4C/s 888888..rebecca
+football1        (Access_Review.xlsx)     
+1g 0:00:00:03 DONE (2026-03-12 06:55) 0.2840g/s 225.0p/s 225.0c/s 225.0C/s football1..capricorn
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+
+```
