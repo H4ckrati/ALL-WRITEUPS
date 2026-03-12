@@ -90,3 +90,9 @@ http://localhost:8080/ui/explore
 
 admin
 ZQJqIiYkrxXXMHp5ow3vz5se3R6E585e
+
+
+```
+uv tool install bloodhound
+
+```
