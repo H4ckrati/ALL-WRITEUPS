@@ -85,3 +85,6 @@ sudo curl -L https://github.com/docker/compose/releases/download/v5.0.2/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version
 ```
+
+
+![](../../../../PicoCTF/PicoCTF-assets/Pasted%20image%2020260311232618.png)
