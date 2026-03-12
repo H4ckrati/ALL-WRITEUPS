@@ -48,7 +48,7 @@ setup nxc
 
 
 1. [https://hashcat.net/wiki/doku.php?id=example_hashes](https://hashcat.net/wiki/doku.php?id=example_hashes "https://hashcat.net/wiki/doku.php?id=example_hashes")
-see dis
+see discord mee6 for otherresources
 
 ```
 john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
